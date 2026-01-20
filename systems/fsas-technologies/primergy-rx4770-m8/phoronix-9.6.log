@@ -1,0 +1,2006 @@
+
+[1;32mUpdated OpenBenchmarking.org Repository Index[0m
+[1;32mpts: 563 Distinct Tests, 2590 Test Versions, 57 Suites[0m
+[3mAvailable Changes From 3 July 2022 To 19 December[0m
+[1mNew Test: [0m      pts/3dmark              [1;30mv1.0.0[0m  3DMark Wild Life Extreme                          
+[1mNew Test: [0m      pts/3dmark-solar-bay    [1;30mv1.0.0[0m  3DMark Solar Bay Extreme                          
+[1mUpdated Test: [0m  pts/ai-benchmark        [1;30mv1.0.2[0m  AI Benchmark Alpha                                
+[1mUpdated Test: [0m  pts/aircrack-ng         [1;30mv1.3.0[0m  Aircrack-ng                                       
+[1mUpdated Test: [0m  pts/aom-av1             [1;30mv3.12.0[0m AOM AV1                                           
+[1mUpdated Test: [0m  pts/apache              [1;30mv3.0.0[0m  Apache HTTP Server                                
+[1mNew Test: [0m      pts/apache-iotdb        [1;30mv1.2.0[0m  Apache IoTDB                                      
+[1mUpdated Test: [0m  pts/apache-siege        [1;30mv1.1.0[0m  Apache Siege                                      
+[1mUpdated Test: [0m  pts/arrayfire           [1;30mv1.2.1[0m  ArrayFire                                         
+[1mUpdated Test: [0m  pts/astcenc             [1;30mv1.6.0[0m  ASTC Encoder                                      
+[1mUpdated Test: [0m  pts/avifenc             [1;30mv1.4.1[0m  libavif avifenc                                   
+[1mNew Test: [0m      pts/axs2mlperf          [1;30mv1.0.0[0m  axs2mlperf                                        
+[1mUpdated Test: [0m  pts/basis               [1;30mv1.2.0[0m  Basis Universal                                   
+[1mUpdated Test: [0m  pts/batman-knight       [1;30mv1.0.1[0m  Batman: Arkham Knight                             
+[1mUpdated Test: [0m  pts/blender             [1;30mv5.0.0[0m  Blender                                           
+[1mUpdated Test: [0m  pts/blosc               [1;30mv1.3.0[0m  C-Blosc                                           
+[1mNew Test: [0m      pts/breaking-limit      [1;30mv1.0.1[0m  GPUScore: Breaking Limit                          
+[1mUpdated Test: [0m  pts/brl-cad             [1;30mv1.7.1[0m  BRL-CAD                                           
+[1mUpdated Test: [0m  pts/build-apache        [1;30mv1.7.0[0m  Timed Apache Compilation                          
+[1mUpdated Test: [0m  pts/build-eigen         [1;30mv1.2.0[0m  Timed Eigen Compilation                           
+[1mUpdated Test: [0m  pts/build-erlang        [1;30mv1.3.0[0m  Timed Erlang/OTP Compilation                      
+[1mUpdated Test: [0m  pts/build-ffmpeg        [1;30mv7.0.0[0m  Timed FFmpeg Compilation                          
+[1mUpdated Test: [0m  pts/build-gcc           [1;30mv1.5.0[0m  Timed GCC Compilation                             
+[1mUpdated Test: [0m  pts/build-gdb           [1;30mv1.2.0[0m  Timed GDB GNU Debugger Compilation                
+[1mUpdated Test: [0m  pts/build-gem5          [1;30mv1.1.0[0m  Timed Gem5 Compilation                            
+[1mUpdated Test: [0m  pts/build-godot         [1;30mv4.5.0[0m  Timed Godot Game Engine Compilation               
+[1mUpdated Test: [0m  pts/build-imagemagick   [1;30mv1.8.0[0m  Timed ImageMagick Compilation                     
+[1mUpdated Test: [0m  pts/build-linux-kernel  [1;30mv1.17.1[0m Timed Linux Kernel Compilation                    
+[1mUpdated Test: [0m  pts/build-llvm          [1;30mv1.6.0[0m  Timed LLVM Compilation                            
+[1mUpdated Test: [0m  pts/build-mesa          [1;30mv1.1.0[0m  Timed Mesa Compilation                            
+[1mUpdated Test: [0m  pts/build-nodejs        [1;30mv1.5.1[0m  Timed Node.js Compilation                         
+[1mUpdated Test: [0m  pts/build-php           [1;30mv1.8.0[0m  Timed PHP Compilation                             
+[1mNew Test: [0m      pts/build-python        [1;30mv1.0.0[0m  Timed CPython Compilation                         
+[1mUpdated Test: [0m  pts/build-wasmer        [1;30mv1.2.0[0m  Timed Wasmer Compilation                          
+[1mUpdated Test: [0m  pts/build2              [1;30mv1.3.0[0m  Build2                                            
+[1mUpdated Test: [0m  pts/byte                [1;30mv1.4.0[0m  BYTE Unix Benchmark                               
+[1mUpdated Test: [0m  pts/c-ray               [1;30mv2.0.0[0m  C-Ray                                             
+[1mUpdated Test: [0m  pts/cachebench          [1;30mv1.2.0[0m  CacheBench                                        
+[1mUpdated Test: [0m  pts/cassandra           [1;30mv1.3.1[0m  Apache Cassandra                                  
+[1mUpdated Test: [0m  pts/clickhouse          [1;30mv1.3.0[0m  ClickHouse                                        
+[1mUpdated Test: [0m  pts/cloudsuite-da       [1;30mv1.2.0[0m  CloudSuite Data Analytics                         
+[1mUpdated Test: [0m  pts/cloudsuite-ga       [1;30mv1.1.0[0m  CloudSuite Graph Analytics                        
+[1mUpdated Test: [0m  pts/cloudsuite-ma       [1;30mv1.1.0[0m  CloudSuite In-Memory Analytics                    
+[1mUpdated Test: [0m  pts/cloudsuite-ms       [1;30mv1.0.1[0m  CloudSuite Media Streaming                        
+[1mUpdated Test: [0m  pts/cloudsuite-ws       [1;30mv1.1.0[0m  CloudSuite Web Serving                            
+[1mUpdated Test: [0m  pts/cloverleaf          [1;30mv1.2.0[0m  CloverLeaf                                        
+[1mUpdated Test: [0m  pts/clpeak              [1;30mv1.1.0[0m  clpeak                                            
+[1mNew Test: [0m      pts/cockroach           [1;30mv1.0.2[0m  CockroachDB                                       
+[1mUpdated Test: [0m  pts/compress-7zip       [1;30mv1.12.0[0m 7-Zip Compression                                 
+[1mUpdated Test: [0m  pts/compress-lz4        [1;30mv1.10.0[0m LZ4 Compression                                   
+[1mUpdated Test: [0m  pts/compress-pbzip2     [1;30mv1.6.1[0m  Parallel BZIP2 Compression                        
+[1mUpdated Test: [0m  pts/compress-zstd       [1;30mv1.6.0[0m  Zstd Compression                                  
+[1mUpdated Test: [0m  pts/couchdb             [1;30mv1.4.1[0m  Apache CouchDB                                    
+[1mUpdated Test: [0m  pts/cp2k                [1;30mv1.5.0[0m  CP2K Molecular Dynamics                           
+[1mUpdated Test: [0m  pts/cpuminer-opt        [1;30mv1.8.0[0m  Cpuminer-Opt                                      
+[1mUpdated Test: [0m  pts/cryptopp            [1;30mv1.1.0[0m  Crypto++                                          
+[1mNew Test: [0m      pts/cs2                 [1;30mv1.0.2[0m  Counter-Strike 2                                  
+[1mUpdated Test: [0m  pts/csgo                [1;30mv1.7.2[0m  Counter-Strike: Global Offensive                  
+[1mNew Test: [0m      pts/cyberpunk2077       [1;30mv1.0.1[0m  Cyberpunk 2077                                    
+[1mUpdated Test: [0m  pts/dacapobench         [1;30mv1.1.0[0m  DaCapo Benchmark                                  
+[1mUpdated Test: [0m  pts/daphne              [1;30mv1.1.0[0m  Darmstadt Automotive Parallel Heterogeneous Suite 
+[1mUpdated Test: [0m  pts/dav1d               [1;30mv1.16.0[0m dav1d                                             
+[1mUpdated Test: [0m  pts/ddnet               [1;30mv1.4.1[0m  DDraceNetwork                                     
+[1mNew Test: [0m      pts/deeprec             [1;30mv1.0.2[0m  DeepRec                                           
+[1mNew Test: [0m      pts/deepsparse          [1;30mv1.7.0[0m  Neural Magic DeepSparse                           
+[1mUpdated Test: [0m  pts/draco               [1;30mv1.6.1[0m  Google Draco                                      
+[1mNew Test: [0m      pts/dragonflydb         [1;30mv1.1.0[0m  Dragonflydb                                       
+[1mNew Test: [0m      pts/duckdb              [1;30mv1.1.0[0m  DuckDB                                            
+[1mNew Test: [0m      pts/easywave            [1;30mv1.0.0[0m  easyWave                                          
+[1mUpdated Test: [0m  pts/embree              [1;30mv1.7.0[0m  Embree                                            
+[1mUpdated Test: [0m  pts/encode-flac         [1;30mv1.9.0[0m  FLAC Audio Encoding                               
+[1mUpdated Test: [0m  pts/encode-opus         [1;30mv1.5.0[0m  Opus Codec Encoding                               
+[1mUpdated Test: [0m  pts/encode-wavpack      [1;30mv1.5.0[0m  WavPack Audio Encoding                            
+[1mNew Test: [0m      pts/encodec             [1;30mv1.0.1[0m  EnCodec                                           
+[1mNew Test: [0m      pts/epoch               [1;30mv1.0.0[0m  Epoch                                             
+[1mUpdated Test: [0m  pts/espeak              [1;30mv1.7.0[0m  eSpeak-NG Speech Engine                           
+[1mNew Test: [0m      pts/etcd                [1;30mv1.0.0[0m  etcd                                              
+[1mUpdated Test: [0m  pts/etcpak              [1;30mv2.0.0[0m  Etcpak                                            
+[1mUpdated Test: [0m  pts/ethr                [1;30mv1.2.1[0m  Ethr                                              
+[1mUpdated Test: [0m  pts/etlegacy            [1;30mv1.3.0[0m  ET: Legacy                                        
+[1mUpdated Test: [0m  pts/f12021              [1;30mv1.0.1[0m  F1 2021                                           
+[1mNew Test: [0m      pts/f122                [1;30mv1.0.3[0m  F1 22                                             
+[1mNew Test: [0m      pts/faiss               [1;30mv1.0.1[0m  Faiss                                             
+[1mUpdated Test: [0m  pts/ffmpeg              [1;30mv7.0.1[0m  FFmpeg                                            
+[1mUpdated Test: [0m  pts/fio                 [1;30mv2.2.0[0m  Flexible IO Tester                                
+[1mNew Test: [0m      pts/fluidx3d            [1;30mv1.5.0[0m  FluidX3D                                          
+[1mNew Test: [0m      pts/furmark             [1;30mv1.0.0[0m  FurMark                                           
+[1mUpdated Test: [0m  pts/gcrypt              [1;30mv1.2.0[0m  Gcrypt Library                                    
+[1mUpdated Test: [0m  pts/geekbench           [1;30mv6.5.0[0m  Geekbench                                         
+[1mUpdated Test: [0m  pts/glibc-bench         [1;30mv1.9.0[0m  Glibc Benchmarks                                  
+[1mUpdated Test: [0m  pts/glmark2             [1;30mv1.4.0[0m  GLmark2                                           
+[1mUpdated Test: [0m  pts/gpaw                [1;30mv1.3.0[0m  GPAW                                              
+[1mNew Test: [0m      pts/gpuowl              [1;30mv1.1.0[0m  GpuOwl                                            
+[1mUpdated Test: [0m  pts/graph500            [1;30mv1.0.2[0m  Graph500                                          
+[1mUpdated Test: [0m  pts/graphics-magick     [1;30mv2.2.0[0m  GraphicsMagick                                    
+[1mUpdated Test: [0m  pts/gravitymark         [1;30mv1.10.0[0m GravityMark                                       
+[1mUpdated Test: [0m  pts/gromacs             [1;30mv1.10.0[0m GROMACS                                           
+[1mNew Test: [0m      pts/gta5                [1;30mv1.0.0[0m  Grand Theft Auto V                                
+[1mNew Test: [0m      pts/hadoop              [1;30mv1.0.0[0m  Apache Hadoop                                     
+[1mUpdated Test: [0m  pts/hammerdb-mariadb    [1;30mv1.1.0[0m  HammerDB - MariaDB                                
+[1mUpdated Test: [0m  pts/hammerdb-postgresql [1;30mv1.1.1[0m  HammerDB - PostgreSQL                             
+[1mUpdated Test: [0m  pts/hashcat             [1;30mv1.2.0[0m  Hashcat                                           
+[1mUpdated Test: [0m  pts/hbase               [1;30mv1.1.0[0m  Apache HBase                                      
+[1mNew Test: [0m      pts/heffte              [1;30mv1.1.0[0m  HeFFTe - Highly Efficient FFT for Exascale        
+[1mUpdated Test: [0m  pts/hitman              [1;30mv1.0.2[0m  HITMAN                                            
+[1mUpdated Test: [0m  pts/hitman3             [1;30mv1.0.1[0m  HITMAN 3                                          
+[1mUpdated Test: [0m  pts/hpcg                [1;30mv1.3.0[0m  High Performance Conjugate Gradient               
+[1mUpdated Test: [0m  pts/incompact3d         [1;30mv2.1.0[0m  Xcompact3d Incompact3d                            
+[1mUpdated Test: [0m  pts/influxdb            [1;30mv1.0.2[0m  InfluxDB                                          
+[1mUpdated Test: [0m  pts/intel-mlc           [1;30mv1.2.0[0m  Intel Memory Latency Checker                      
+[1mNew Test: [0m      pts/intel-tensorflow    [1;30mv1.0.0[0m  Intel TensorFlow                                  
+[1mUpdated Test: [0m  pts/iperf               [1;30mv1.2.0[0m  iPerf                                             
+[1mUpdated Test: [0m  pts/java-scimark2       [1;30mv1.2.0[0m  Java SciMark                                      
+[1mUpdated Test: [0m  pts/john-the-ripper     [1;30mv1.9.0[0m  John The Ripper                                   
+[1mUpdated Test: [0m  pts/jpegxl              [1;30mv1.6.0[0m  JPEG-XL libjxl                                    
+[1mUpdated Test: [0m  pts/jpegxl-decode       [1;30mv1.6.0[0m  JPEG-XL Decoding libjxl                           
+[1mUpdated Test: [0m  pts/keydb               [1;30mv1.4.0[0m  KeyDB                                             
+[1mUpdated Test: [0m  pts/kripke              [1;30mv1.2.0[0m  Kripke                                            
+[1mUpdated Test: [0m  pts/kvazaar             [1;30mv1.2.0[0m  Kvazaar                                           
+[1mUpdated Test: [0m  pts/l4d2                [1;30mv1.0.1[0m  Left 4 Dead 2                                     
+[1mNew Test: [0m      pts/laghos              [1;30mv1.0.1[0m  Laghos                                            
+[1mUpdated Test: [0m  pts/lammps              [1;30mv1.4.0[0m  LAMMPS Molecular Dynamics Simulator               
+[1mUpdated Test: [0m  pts/lczero              [1;30mv1.8.0[0m  LeelaChessZero                                    
+[1mUpdated Test: [0m  pts/leveldb             [1;30mv1.1.1[0m  LevelDB                                           
+[1mUpdated Test: [0m  pts/libplacebo          [1;30mv1.2.0[0m  Libplacebo                                        
+[1mNew Test: [0m      pts/libxsmm             [1;30mv1.0.1[0m  libxsmm                                           
+[1mUpdated Test: [0m  pts/liquid-dsp          [1;30mv1.7.0[0m  Liquid-DSP                                        
+[1mNew Test: [0m      pts/litert              [1;30mv1.0.0[0m  LiteRT                                            
+[1mNew Test: [0m      pts/llama-cpp           [1;30mv2.3.0[0m  Llama.cpp                                         
+[1mNew Test: [0m      pts/llamafile           [1;30mv1.3.0[0m  Llamafile                                         
+[1mNew Test: [0m      pts/localscore          [1;30mv1.0.0[0m  LocalScore                                        
+[1mUpdated Test: [0m  pts/lzbench             [1;30mv1.2.0[0m  lzbench                                           
+[1mNew Test: [0m      pts/mariadb             [1;30mv1.1.0[0m  MariaDB                                           
+[1mNew Test: [0m      pts/memcached           [1;30mv1.2.0[0m  Memcached                                         
+[1mUpdated Test: [0m  pts/memtier-benchmark   [1;30mv1.5.0[0m  Redis 7.0.12 + memtier_benchmark                  
+[1mNew Test: [0m      pts/minibude            [1;30mv1.0.0[0m  miniBUDE                                          
+[1mUpdated Test: [0m  pts/mixbench            [1;30mv2.0.0[0m  Mixbench                                          
+[1mUpdated Test: [0m  pts/mnn                 [1;30mv3.1.0[0m  Mobile Neural Network                             
+[1mUpdated Test: [0m  pts/mocassin            [1;30mv1.1.0[0m  Monte Carlo Simulations of Ionised Nebulae        
+[1mUpdated Test: [0m  pts/mt-dgemm            [1;30mv1.3.1[0m  ACES DGEMM                                        
+[1mUpdated Test: [0m  pts/mysqlslap           [1;30mv1.5.0[0m  MariaDB mariadb-slap                              
+[1mUpdated Test: [0m  pts/namd                [1;30mv1.4.0[0m  NAMD                                              
+[1mUpdated Test: [0m  pts/namd-cuda           [1;30mv1.2.0[0m  NAMD CUDA                                         
+[1mUpdated Test: [0m  pts/natron              [1;30mv1.1.0[0m  Natron                                            
+[1mUpdated Test: [0m  pts/ncnn                [1;30mv1.6.0[0m  NCNN                                              
+[1mUpdated Test: [0m  pts/neatbench           [1;30mv1.1.0[0m  NeatBench                                         
+[1mNew Test: [0m      pts/nekrs               [1;30mv1.1.0[0m  nekRS                                             
+[1mUpdated Test: [0m  pts/nginx               [1;30mv3.0.1[0m  nginx                                             
+[1mUpdated Test: [0m  pts/node-web-tooling    [1;30mv1.0.1[0m  Node.js V8 Web Tooling Benchmark                  
+[1mUpdated Test: [0m  pts/numenta-nab         [1;30mv1.1.1[0m  Numenta Anomaly Benchmark                         
+[1mUpdated Test: [0m  pts/nwchem              [1;30mv1.3.0[0m  NWChem                                            
+[1mUpdated Test: [0m  pts/oidn                [1;30mv2.3.0[0m  Intel Open Image Denoise                          
+[1mUpdated Test: [0m  pts/onednn              [1;30mv3.8.0[0m  oneDNN                                            
+[1mUpdated Test: [0m  pts/onnx                [1;30mv1.22.0[0m ONNX Runtime                                      
+[1mNew Test: [0m      pts/openapv             [1;30mv1.0.0[0m  OpenAPV                                           
+[1mNew Test: [0m      pts/opencl-benchmark    [1;30mv1.1.0[0m  ProjectPhysX OpenCL-Benchmark                     
+[1mUpdated Test: [0m  pts/opencv              [1;30mv1.3.0[0m  OpenCV                                            
+[1mNew Test: [0m      pts/openems             [1;30mv1.0.0[0m  OpenEMS                                           
+[1mUpdated Test: [0m  pts/openfoam            [1;30mv1.2.0[0m  OpenFOAM                                          
+[1mNew Test: [0m      pts/openradioss         [1;30mv1.2.1[0m  OpenRadioss                                       
+[1mUpdated Test: [0m  pts/openssl             [1;30mv3.6.0[0m  OpenSSL                                           
+[1mUpdated Test: [0m  pts/openvino            [1;30mv1.8.0[0m  OpenVINO                                          
+[1mNew Test: [0m      pts/openvino-genai      [1;30mv1.1.0[0m  OpenVINO GenAI                                    
+[1mUpdated Test: [0m  pts/openvkl             [1;30mv2.0.0[0m  OpenVKL                                           
+[1mUpdated Test: [0m  pts/ospray              [1;30mv3.2.0[0m  OSPRay                                            
+[1mUpdated Test: [0m  pts/ospray-studio       [1;30mv1.4.0[0m  OSPRay Studio                                     
+[1mNew Test: [0m      pts/palabos             [1;30mv1.0.1[0m  Palabos                                           
+[1mUpdated Test: [0m  pts/paraview            [1;30mv1.4.1[0m  ParaView                                          
+[1mUpdated Test: [0m  pts/perf-bench          [1;30mv1.1.0[0m  perf-bench                                        
+[1mNew Test: [0m      pts/petsc               [1;30mv1.1.0[0m  PETSc                                             
+[1mUpdated Test: [0m  pts/pgbench             [1;30mv1.16.0[0m PostgreSQL                                        
+[1mNew Test: [0m      pts/pogocache           [1;30mv1.0.0[0m  Pogocache                                         
+[1mUpdated Test: [0m  pts/portal2             [1;30mv1.1.2[0m  Portal 2                                          
+[1mUpdated Test: [0m  pts/primesieve          [1;30mv1.12.0[0m Primesieve                                        
+[1mUpdated Test: [0m  pts/pyperformance       [1;30mv1.1.0[0m  PyPerformance                                     
+[1mNew Test: [0m      pts/pytorch             [1;30mv1.2.0[0m  PyTorch                                           
+[1mUpdated Test: [0m  pts/qmcpack             [1;30mv1.8.0[0m  QMCPACK                                           
+[1mNew Test: [0m      pts/quadray             [1;30mv1.0.0[0m  QuadRay                                           
+[1mUpdated Test: [0m  pts/quake2rtx           [1;30mv1.8.0[0m  Quake II RTX                                      
+[1mUpdated Test: [0m  pts/quantlib            [1;30mv2.2.0[0m  QuantLib                                          
+[1mNew Test: [0m      pts/quicksilver         [1;30mv1.0.0[0m  Quicksilver                                       
+[1mNew Test: [0m      pts/rabbitmq            [1;30mv1.1.1[0m  RabbitMQ                                          
+[1mUpdated Test: [0m  pts/rav1e               [1;30mv1.8.0[0m  rav1e                                             
+[1mUpdated Test: [0m  pts/redis               [1;30mv1.4.0[0m  Redis                                             
+[1mUpdated Test: [0m  pts/relion              [1;30mv1.2.0[0m  RELION                                            
+[1mNew Test: [0m      pts/remhos              [1;30mv1.0.0[0m  Remhos                                            
+[1mUpdated Test: [0m  pts/renaissance         [1;30mv1.4.0[0m  Renaissance                                       
+[1mUpdated Test: [0m  pts/rnnoise             [1;30mv1.1.0[0m  RNNoise                                           
+[1mUpdated Test: [0m  pts/rocksdb             [1;30mv1.7.0[0m  RocksDB                                           
+[1mNew Test: [0m      pts/rocm-vllm           [1;30mv1.0.0[0m  vLLM                                              
+[1mUpdated Test: [0m  pts/rtiv                [1;30mv1.2.0[0m  Ray Tracing In Vulkan                             
+[1mNew Test: [0m      pts/rustls              [1;30mv1.0.0[0m  Rustls                                            
+[1mUpdated Test: [0m  pts/schbench            [1;30mv1.2.0[0m  Schbench                                          
+[1mUpdated Test: [0m  pts/scikit-learn        [1;30mv2.0.0[0m  Scikit-Learn                                      
+[1mNew Test: [0m      pts/scylladb            [1;30mv1.0.0[0m  ScyllaDB                                          
+[1mUpdated Test: [0m  pts/simdjson            [1;30mv2.1.0[0m  simdjson                                          
+[1mUpdated Test: [0m  pts/smhasher            [1;30mv1.1.0[0m  SMHasher                                          
+[1mNew Test: [0m      pts/spacy               [1;30mv1.0.0[0m  spaCy                                             
+[1mNew Test: [0m      pts/spark               [1;30mv1.0.1[0m  Apache Spark                                      
+[1mNew Test: [0m      pts/spark-tpcds         [1;30mv1.0.0[0m  Apache Spark TPC-DS                               
+[1mNew Test: [0m      pts/spark-tpch          [1;30mv1.0.0[0m  Apache Spark TPC-H                                
+[1mUpdated Test: [0m  pts/spec-jbb2015        [1;30mv1.1.0[0m  SPECjbb 2015                                      
+[1mNew Test: [0m      pts/specfem3d           [1;30mv1.1.0[0m  SPECFEM3D                                         
+[1mNew Test: [0m      pts/speedb              [1;30mv1.0.1[0m  Speedb                                            
+[1mUpdated Test: [0m  pts/sqlite              [1;30mv2.3.0[0m  SQLite                                            
+[1mUpdated Test: [0m  pts/srsran              [1;30mv2.4.1[0m  srsRAN Project                                    
+[1mNew Test: [0m      pts/star-swarm          [1;30mv1.0.0[0m  Star Swarm Stress Test                            
+[1mUpdated Test: [0m  pts/stargate            [1;30mv1.1.0[0m  Stargate Digital Audio Workstation                
+[1mUpdated Test: [0m  pts/stockfish           [1;30mv1.7.0[0m  Stockfish                                         
+[1mUpdated Test: [0m  pts/strange-brigade     [1;30mv1.0.1[0m  Strange Brigade                                   
+[1mUpdated Test: [0m  pts/stream              [1;30mv1.3.4[0m  Stream                                            
+[1mUpdated Test: [0m  pts/stress-ng           [1;30mv1.13.0[0m Stress-NG                                         
+[1mUpdated Test: [0m  pts/supertuxkart        [1;30mv1.8.1[0m  SuperTuxKart                                      
+[1mUpdated Test: [0m  pts/svt-av1             [1;30mv2.16.0[0m SVT-AV1                                           
+[1mUpdated Test: [0m  pts/tensorflow          [1;30mv2.3.0[0m  TensorFlow                                        
+[1mUpdated Test: [0m  pts/tf2                 [1;30mv1.2.4[0m  Team Fortress 2                                   
+[1mNew Test: [0m      pts/tidb                [1;30mv1.0.3[0m  TiDB Community Server                             
+[1mUpdated Test: [0m  pts/ttsiod-renderer     [1;30mv1.8.0[0m  TTSIOD 3D Renderer                                
+[1mUpdated Test: [0m  pts/tww3                [1;30mv1.0.1[0m  Total War: WARHAMMER III                          
+[1mUpdated Test: [0m  pts/unigine-heaven      [1;30mv1.6.6[0m  Unigine Heaven                                    
+[1mUpdated Test: [0m  pts/unigine-super       [1;30mv1.0.8[0m  Unigine Superposition                             
+[1mUpdated Test: [0m  pts/unigine-valley      [1;30mv1.1.9[0m  Unigine Valley                                    
+[1mUpdated Test: [0m  pts/unpack-linux        [1;30mv1.2.0[0m  Unpacking The Linux Kernel                        
+[1mUpdated Test: [0m  pts/unvanquished        [1;30mv1.10.0[0m Unvanquished                                      
+[1mNew Test: [0m      pts/uvg266              [1;30mv1.1.0[0m  uvg266                                            
+[1mUpdated Test: [0m  pts/v-ray               [1;30mv1.5.0[0m  Chaos Group V-RAY                                 
+[1mNew Test: [0m      pts/valkey              [1;30mv1.0.0[0m  Valkey                                            
+[1mUpdated Test: [0m  pts/vkfft               [1;30mv1.3.0[0m  VkFFT                                             
+[1mUpdated Test: [0m  pts/vkmark              [1;30mv1.3.2[0m  VKMark                                            
+[1mUpdated Test: [0m  pts/vkpeak              [1;30mv1.3.0[0m  vkpeak                                            
+[1mUpdated Test: [0m  pts/vkresample          [1;30mv1.0.2[0m  VkResample                                        
+[1mNew Test: [0m      pts/vllm                [1;30mv1.0.1[0m  vLLM                                              
+[1mUpdated Test: [0m  pts/vpxenc              [1;30mv3.2.0[0m  VP9 libvpx Encoding                               
+[1mNew Test: [0m      pts/vvenc               [1;30mv1.13.0[0m VVenC                                             
+[1mUpdated Test: [0m  pts/waifu2x-ncnn        [1;30mv1.1.0[0m  Waifu2x-NCNN Vulkan                               
+[1mNew Test: [0m      pts/warpx               [1;30mv1.0.0[0m  WarpX                                             
+[1mUpdated Test: [0m  pts/webp                [1;30mv1.4.0[0m  WebP Image Encode                                 
+[1mUpdated Test: [0m  pts/webp2               [1;30mv1.2.1[0m  WebP2 Image Encode                                
+[1mNew Test: [0m      pts/whisper-cpp         [1;30mv1.1.0[0m  Whisper.cpp                                       
+[1mNew Test: [0m      pts/whisperfile         [1;30mv1.0.0[0m  Whisperfile                                       
+[1mNew Test: [0m      pts/will-it-scale       [1;30mv1.0.0[0m  will-it-scale                                     
+[1mUpdated Test: [0m  pts/wrf                 [1;30mv1.0.2[0m  WRF                                               
+[1mUpdated Test: [0m  pts/x265                [1;30mv1.5.0[0m  x265                                              
+[1mUpdated Test: [0m  pts/xmrig               [1;30mv1.2.0[0m  Xmrig                                             
+[1mNew Test: [0m      pts/xnnpack             [1;30mv1.1.0[0m  XNNPACK                                           
+[1mUpdated Test: [0m  pts/xonotic             [1;30mv1.7.0[0m  Xonotic                                           
+[1mNew Test: [0m      pts/xplane12            [1;30mv1.0.1[0m  X-Plane                                           
+[1mUpdated Test: [0m  pts/y-cruncher          [1;30mv1.5.0[0m  Y-Cruncher                                        
+[1mNew Test: [0m      pts/yugabytedb          [1;30mv1.0.0[0m  YugabyteDB                                        
+[1mNew Test: [0m      pts/z3                  [1;30mv1.0.1[0m  Z3 Theorem Prover                                 
+[1mNew Test: [0m      pts/zendnn-tensorflow   [1;30mv1.0.0[0m  AMD ZenDNN TensorFlow                             
+[1mUpdated Suite: [0m pts/compilation         [1;30mv1.2.8[0m  Timed Code Compilation                            
+[1mUpdated Suite: [0m pts/database            [1;30mv1.3.13[0m Database Test Suite                               
+[1mUpdated Suite: [0m pts/electronic-design   [1;30mv1.0.1[0m  Electronic Design                                 
+[1mUpdated Suite: [0m pts/hpc                 [1;30mv1.1.12[0m HPC - High Performance Computing                  
+[1mNew Suite: [0m     pts/llm                 [1;30mv1.0.0[0m  Large Language Models                             
+[1mUpdated Suite: [0m pts/machine-learning    [1;30mv1.3.14[0m Machine Learning                                  
+[1mUpdated Suite: [0m pts/opencl              [1;30mv1.1.1[0m  OpenCL                                            
+[1mUpdated Suite: [0m pts/raytracing          [1;30mv1.0.3[0m  Raytracing                                        
+[1mUpdated Suite: [0m pts/server              [1;30mv1.4.2[0m  Server                                            
+[1mUpdated Suite: [0m pts/steam               [1;30mv1.0.10[0m Steam                                             
+[1mUpdated Suite: [0m pts/video-encoding      [1;30mv1.3.5[0m  Video Encoding                                    
+[1;32mUpdated OpenBenchmarking.org Repository Index[0m
+[1;32msystem: 49 Distinct Tests, 150 Test Versions[0m
+[3mAvailable Changes From 3 July 2022 To 19 December[0m
+[1mUpdated Test: [0m system/blender         [1;30mv1.2.2[0m  Blender                
+[1mNew Test: [0m     system/cephfs-rados    [1;30mv1.0.1[0m  CephFS RADOS Benchmark 
+[1mNew Test: [0m     system/compress-7zip   [1;30mv1.0.0[0m  7-Zip Compression      
+[1mNew Test: [0m     system/graphics-magick [1;30mv1.0.0[0m  GraphicsMagick         
+[1mNew Test: [0m     system/gromacs         [1;30mv1.0.0[0m  GROMACS                
+[1mNew Test: [0m     system/hashcat         [1;30mv1.0.0[0m  Hashcat                
+[1mUpdated Test: [0m system/inkscape        [1;30mv1.0.1[0m  Inkscape               
+[1mUpdated Test: [0m system/openssl         [1;30mv1.2.1[0m  OpenSSL                
+[1mNew Test: [0m     system/povray          [1;30mv1.0.0[0m  POV-Ray                
+[1mUpdated Test: [0m system/selenium        [1;30mv1.0.45[0m Selenium               
+[1mNew Test: [0m     system/stockfish       [1;30mv1.0.0[0m  Stockfish              
+[1mNew Test: [0m     system/x265            [1;30mv1.0.0[0m  x265                   
+[1;32mUpdated OpenBenchmarking.org Repository Index[0m
+[1;32mgit: 9 Distinct Tests, 12 Test Versions[0m
+[3mAvailable Changes From 3 July 2022 To 19 December[0m
+[1mNew Test: [0m git/clickhouse [1;30mv1.0.0[0m ClickHouse 
+    Evaluating External Test Dependencies ..................................
+    Evaluating System Dependencies .........................................
+
+The following dependencies are needed and will be installed: 
+
+- iperf3
+
+This process may take several minutes.
+Last metadata expiration check: 0:00:54 ago on Fri 19 Dec 2025 01:37:39 AM EST.
+Dependencies resolved.
+================================================================================
+ Package         Architecture    Version               Repository          Size
+================================================================================
+Installing:
+ iperf3          x86_64          3.9-14.el9            appstream          107 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 107 k
+Installed size: 261 k
+Downloading Packages:
+iperf3-3.9-14.el9.x86_64.rpm                    432 kB/s | 107 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           122 kB/s | 107 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : iperf3-3.9-14.el9.x86_64                               1/1 
+  Running scriptlet: iperf3-3.9-14.el9.x86_64                               1/1 
+  Verifying        : iperf3-3.9-14.el9.x86_64                               1/1 
+
+Installed:
+  iperf3-3.9-14.el9.x86_64                                                      
+
+Complete!
+
+[1;32mPhoronix Test Suite v10.8.4[0m
+[1;32m[0m
+    [1mTo Install:[0m    pts/build-python-1.0.0
+    [1mTo Install:[0m    pts/osbench-1.0.2
+    [1mTo Install:[0m    pts/schbench-1.2.0
+    [1mTo Install:[0m    pts/t-test1-1.0.1
+    [1mTo Install:[0m    pts/tinymembench-1.0.2
+    [1mTo Install:[0m    system/wireguard-1.0.1
+    [1mTo Install:[0m    pts/cachebench-1.2.0
+    [1mTo Install:[0m    pts/ramspeed-1.4.3
+    [1mTo Install:[0m    pts/stream-1.3.4
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    9 Tests To Install
+        9 Files To Download [25.00MB]
+        256MB Of Disk Space Is Needed
+        28 Seconds Estimated Install Time
+
+    [1;36mpts/build-python-1.0.0[0m:
+        Test Installation 1 of 9
+        1 File Needed [24.78 MB]
+        [1mDownloading[0m: Python-3.10.6.tgz                             [24.78MB]
+        Downloading ........................................................
+        [1mApproximate Install Size: [0m250 MB
+        [1mEstimated Install Time: [0m2 Seconds
+        Installing Test @ 01:38:40
+
+    [1;36mpts/osbench-1.0.2[0m:
+        Test Installation 2 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mDownloading[0m: osbench-master-1.zip                           [0.01MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m1 MB
+        [1mEstimated Install Time: [0m3 Seconds
+        Installing Test @ 01:38:42
+
+    [1;36mpts/schbench-1.2.0[0m:
+        Test Installation 3 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mDownloading[0m: schbench-20230421.tar.xz                       [0.01MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m1 MB
+        [1mEstimated Install Time: [0m3 Seconds
+        Installing Test @ 01:38:43
+
+    [1;36mpts/t-test1-1.0.1[0m:
+        Test Installation 4 of 9
+        1 File Needed
+        [1mDownloading[0m: t-test1c-20171.zip                             [0.00MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m1.0 MB
+        [1mEstimated Install Time: [0m6 Seconds
+        Installing Test @ 01:38:43
+
+    [1;36mpts/tinymembench-1.0.2[0m:
+        Test Installation 5 of 9
+        1 File Needed [0.03 MB / 1 Minute]
+        [1mDownloading[0m: tinymembench-20180528.zip                      [0.03MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m0.3 MB
+        [1mEstimated Install Time: [0m2 Seconds
+        Installing Test @ 01:38:44
+
+    [1;36msystem/wireguard-1.0.1[0m:
+        Test Installation 6 of 9
+        1 File Needed
+        [1mDownloading[0m: wireguard-for-pts-2.tar.xz                     [0.00MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m1 MB
+        [1mEstimated Install Time: [0m2 Seconds
+        Installing Test @ 01:38:45
+
+    [1;36mpts/cachebench-1.2.0[0m:
+        Test Installation 7 of 9
+        1 File Needed [0.08 MB / 1 Minute]
+        [1mDownloading[0m: llcbench-20170104.tar.gz                       [0.08MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m0.5 MB
+        [1mEstimated Install Time: [0m4 Seconds
+        Installing Test @ 01:38:45
+
+    [1;36mpts/ramspeed-1.4.3[0m:
+        Test Installation 8 of 9
+        1 File Needed [0.08 MB / 1 Minute]
+        [1mDownloading[0m: ramsmp-3.5.0.tar.gz                            [0.08MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m0.72 MB
+        [1mEstimated Install Time: [0m4 Seconds
+        Installing Test @ 01:38:46
+
+    [1;36mpts/stream-1.3.4[0m:
+        Test Installation 9 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mDownloading[0m: stream-2013-01-17.tar.bz2                      [0.01MB]
+        Estimated Download Time: 1m ........................................
+        [1mApproximate Install Size: [0m0.1 MB
+        [1mEstimated Install Time: [0m2 Seconds
+        Installing Test @ 01:38:47
+
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:              [1;32m4 x Intel Xeon 6788P @ 3.80GHz[0m
+    [1mCore Count[0m:           344                                               
+    [1mThread Count[0m:         688                                               
+    [1mExtensions[0m:           SSE 4.2                                           
+    [1m [0m                     + AVX512_VNNI                                     
+    [1m [0m                     + AVX512CD                                        
+    [1m [0m                     + AVX2                                            
+    [1m [0m                     + AVX                                             
+    [1m [0m                     + RDRAND                                          
+    [1m [0m                     + FSGSBASE                                        
+    [1mCache Size[0m:           336 MB                                            
+    [1mMicrocode[0m:            0x10003f3                                         
+    [1mCore Family[0m:          Family 6 Model 173                                
+    [1mScaling Driver[0m:       intel_pstate powersave (EPP: balance_performance) 
+
+  [1;30mGRAPHICS[0m:               [1;32mASPEED[0m
+    [1mScreen[0m:               1024x768         
+
+  [1;30mMOTHERBOARD[0m:            [1;32mFsas D4136-A1[0m
+    [1mBIOS Version[0m:         V1.0.0.0 R1.1.0 for D4136-A1x 
+    [1mChipset[0m:              Intel Ice Lake IEH            
+    [1mNetwork[0m:              Intel I210 + 2 x Intel I350   
+
+  [1;30mMEMORY[0m:                 [1;32m4 x 64 GB DDR5-6400MT/s Micron[0m
+
+  [1;30mDISK[0m:                   [1;32m960GB Micron_7450_MTFDKBA960TFR + 0GB ASMT105x[0m
+    [1mFile-System[0m:          xfs                                                               
+    [1mMount Options[0m:        attr2 inode64 logbsize=32k logbufs=8 noquota relatime rw seclabel 
+    [1mDisk Scheduler[0m:       NONE                                                              
+    [1mDisk Details[0m:         Block Size: 4096                                                  
+
+  [1;30mOPERATING SYSTEM[0m:       [1;32mAlmaLinux 9.6[0m
+    [1mKernel[0m:               5.14.0-570.12.1.el9_6.x86_64 (x86_64)                                                                                            
+    [1mDesktop[0m:              GNOME Shell 40.10                                                                                                                
+    [1mDisplay Server[0m:       X Server                                                                                                                         
+    [1mCompiler[0m:             GCC 11.5.0 20240719                                                                                                              
+    [1mSecurity[0m:             SELinux                                                                                                                          
+    [1m [0m                     + gather_data_sampling: Not affected                                                                                             
+    [1m [0m                     + itlb_multihit: Not affected                                                                                                    
+    [1m [0m                     + l1tf: Not affected                                                                                                             
+    [1m [0m                     + mds: Not affected                                                                                                              
+    [1m [0m                     + meltdown: Not affected                                                                                                         
+    [1m [0m                     + mmio_stale_data: Not affected                                                                                                  
+    [1m [0m                     + reg_file_data_sampling: Not affected                                                                                           
+    [1m [0m                     + retbleed: Not affected                                                                                                         
+    [1m [0m                     + spec_rstack_overflow: Not affected                                                                                             
+    [1m [0m                     + spec_store_bypass: Mitigation of SSB disabled via prctl                                                                        
+    [1m [0m                     + spectre_v1: Mitigation of usercopy/swapgs barriers and __user pointer sanitization                                             
+    [1m [0m                     + spectre_v2: Mitigation of Enhanced / Automatic IBRS; IBPB: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: BHI_DIS_S 
+    [1m [0m                     + srbds: Not affected                                                                                                            
+    [1m [0m                     + tsx_async_abort: Not affected                                                                                                  
+
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Add - Benchmark: Integer][0m
+    Test 1 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      2 Minutes                      
+    Estimated Time To Completion: 1 Hour, 26 Minutes [03:04 EST] 
+        Started Run 1 @ 01:38:49
+
+    Type: Add - Benchmark: Integer:
+        56483.48
+
+    Average: [1;34m56483.48 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Copy - Benchmark: Integer][0m
+    Test 2 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 14 Minutes [02:53 EST] 
+        Started Run 1 @ 01:39:30
+
+    Type: Copy - Benchmark: Integer:
+        58636.52
+
+    Average: [1;34m58636.52 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Scale - Benchmark: Integer][0m
+    Test 3 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 14 Minutes [02:53 EST] 
+        Started Run 1 @ 01:40:09
+
+    Type: Scale - Benchmark: Integer:
+        59694.87
+
+    Average: [1;34m59694.87 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Triad - Benchmark: Integer][0m
+    Test 4 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 13 Minutes [02:53 EST] 
+        Started Run 1 @ 01:40:48
+
+    Type: Triad - Benchmark: Integer:
+        60178.08
+
+    Average: [1;34m60178.08 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Average - Benchmark: Integer][0m
+    Test 5 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 13 Minutes [02:53 EST] 
+        Started Run 1 @ 01:41:27
+
+    Type: Average - Benchmark: Integer:
+        57824.87
+
+    Average: [1;34m57824.87 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Add - Benchmark: Floating Point][0m
+    Test 6 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 12 Minutes [02:53 EST] 
+        Started Run 1 @ 01:42:08
+
+    Type: Add - Benchmark: Floating Point:
+        59838.6
+
+    Average: [1;34m59838.6 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Copy - Benchmark: Floating Point][0m
+    Test 7 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 12 Minutes [02:54 EST] 
+        Started Run 1 @ 01:42:47
+
+    Type: Copy - Benchmark: Floating Point:
+        59259.18
+
+    Average: [1;34m59259.18 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Scale - Benchmark: Floating Point][0m
+    Test 8 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 11 Minutes [02:54 EST] 
+        Started Run 1 @ 01:43:26
+
+    Type: Scale - Benchmark: Floating Point:
+        59308.2
+
+    Average: [1;34m59308.2 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Triad - Benchmark: Floating Point][0m
+    Test 9 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 11 Minutes [02:54 EST] 
+        Started Run 1 @ 01:44:05
+
+    Type: Triad - Benchmark: Floating Point:
+        60132.25
+
+    Average: [1;34m60132.25 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Average - Benchmark: Floating Point][0m
+    Test 10 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 10 Minutes [02:54 EST] 
+        Started Run 1 @ 01:44:44
+
+    Type: Average - Benchmark: Floating Point:
+        59686.5
+
+    Average: [1;34m59686.5 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Copy][0m
+    Test 11 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      1 Minute                       
+    Estimated Time To Completion: 1 Hour, 10 Minutes [02:54 EST] 
+        Started Run 1 @ 01:45:23
+
+    Type: Copy:
+        104516.9
+
+    Average: [1;34m104516.9 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Scale][0m
+    Test 12 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      3 Minutes                      
+    Estimated Time To Completion: 1 Hour, 14 Minutes [03:01 EST] 
+
+    Type: Scale:
+        102765.9
+
+    Average: [1;34m102765.9 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Triad][0m
+    Test 13 of 60
+    Estimated Trial Run Count:    1                              
+    Estimated Test Run-Time:      3 Minutes                      
+    Estimated Time To Completion: 1 Hour, 12 Minutes [02:58 EST] 
+
+    Type: Triad:
+        119952.8
+
+    Average: [1;34m119952.8 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Add][0m
+    Test 14 of 60
+    Estimated Trial Run Count:    1                             
+    Estimated Test Run-Time:      3 Minutes                     
+    Estimated Time To Completion: 1 Hour, 9 Minutes [02:56 EST] 
+
+    Type: Add:
+        120575
+
+    Average: [1;34m120575 MB/s[0m
+    Samples: 1
+
+[1;36mTinymembench 2018-05-28:
+    pts/tinymembench-1.0.2[0m
+    Test 15 of 60
+    Estimated Trial Run Count:    1                             
+    Estimated Test Run-Time:      4 Minutes                     
+    Estimated Time To Completion: 1 Hour, 7 Minutes [02:54 EST] 
+        Started Run 1 @ 01:47:54
+
+    Standard Memcpy:
+        15145.5
+
+    Average: [1;34m15145.5 MB/s[0m
+    Samples: 1
+
+
+    Standard Memset:
+        29979.2
+
+    Average: [1;34m29979.2 MB/s[0m
+    Samples: 1
+
+[1;36mt-test1 2017-01-13:
+    pts/t-test1-1.0.1 [Threads: 1][0m
+    Test 16 of 60
+    Estimated Trial Run Count:    1                             
+    Estimated Test Run-Time:      2 Minutes                     
+    Estimated Time To Completion: 1 Hour, 3 Minutes [02:56 EST] 
+        Started Run 1 @ 01:53:13
+
+    Threads: 1:
+        24.556
+
+    Average: [1;34m24.556 Seconds[0m
+    Samples: 1
+
+[1;36mt-test1 2017-01-13:
+    pts/t-test1-1.0.1 [Threads: 2][0m
+    Test 17 of 60
+    Estimated Trial Run Count:    1                  
+    Estimated Test Run-Time:      1 Minute           
+    Estimated Time To Completion: 1 Hour [02:53 EST] 
+        Started Run 1 @ 01:53:48
+
+    Threads: 2:
+        8.918
+
+    Average: [1;34m8.918 Seconds[0m
+    Samples: 1
+
+[1;36mWireGuard + Linux Networking Stack Stress Test:
+    system/wireguard-1.0.1[0m
+    Test 18 of 60
+    Estimated Trial Run Count:    1                  
+    Estimated Test Run-Time:      16 Minutes         
+    Estimated Time To Completion: 1 Hour [02:53 EST] 
+        Started Run 1 @ 01:54:07
+
+    Test Results:
+        777.682
+
+    Average: [1;34m777.682 Seconds[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Files][0m
+    Test 19 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 45 Minutes [02:51 EST] 
+        Started Run 1 @ 02:07:14
+
+    Test: Create Files:
+        18.650195
+
+    Average: [1;34m18.650195 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Threads][0m
+    Test 20 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 43 Minutes [02:50 EST] 
+        Started Run 1 @ 02:07:30
+
+    Test: Create Threads:
+        88.560581
+
+    Average: [1;34m88.560581 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Launch Programs][0m
+    Test 21 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 43 Minutes [02:50 EST] 
+        Started Run 1 @ 02:07:45
+
+    Test: Launch Programs:
+        528.891087
+
+    Average: [1;34m528.891087 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Processes][0m
+    Test 22 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 43 Minutes [02:50 EST] 
+        Started Run 1 @ 02:08:00
+
+    Test: Create Processes:
+        313.06982
+
+    Average: [1;34m313.06982 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Memory Allocations][0m
+    Test 23 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 43 Minutes [02:50 EST] 
+        Started Run 1 @ 02:08:15
+
+    Test: Memory Allocations:
+        55.6252
+
+    Average: [1;34m55.6252 Ns Per Event[0m
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Read][0m
+    Test 24 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 43 Minutes [02:50 EST] 
+        Started Run 1 @ 02:08:30
+
+    Test: Read:
+        14429.983822
+
+    Average: [1;34m14429.983822 MB/s[0m
+    Minimum: 14426.11
+    Maximum: 14434.54
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Write][0m
+    Test 25 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 40 Minutes [02:50 EST] 
+        Started Run 1 @ 02:10:45
+
+    Test: Write:
+        78117.342226
+
+    Average: [1;34m78117.342226 MB/s[0m
+    Minimum: 39710.62
+    Maximum: 109384.15
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Read / Modify / Write][0m
+    Test 26 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 38 Minutes [02:50 EST] 
+        Started Run 1 @ 02:13:00
+
+    Test: Read / Modify / Write:
+        112289.433615
+
+    Average: [1;34m112289.433615 MB/s[0m
+    Minimum: 71458.5
+    Maximum: 135444.14
+    Samples: 1
+
+[1;36mTimed CPython Compilation 3.10.6:
+    pts/build-python-1.0.0 [Build Configuration: Default][0m
+    Test 27 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      4 Minutes              
+    Estimated Time To Completion: 36 Minutes [02:50 EST] 
+        Running Pre-Test Script @ 02:15:15
+        Started Run 1 @ 02:15:50
+        Running Post-Test Script @ 02:16:08
+
+    Build Configuration: Default:
+        15.85
+
+    Average: [1;34m15.85 Seconds[0m
+
+[1;36mTimed CPython Compilation 3.10.6:
+    pts/build-python-1.0.0 [Build Configuration: Released Build, PGO + LTO Optimized][0m
+    Test 28 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 29 Minutes [02:44 EST] 
+        Running Pre-Test Script @ 02:16:16
+        Started Run 1 @ 02:16:52
+        Running Post-Test Script @ 02:21:23
+
+    Build Configuration: Released Build, PGO + LTO Optimized:
+        269.576
+
+    Average: [1;34m269.576 Seconds[0m
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 29 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 28 Minutes [02:49 EST] 
+        Started Run 1 @ 02:21:32
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        1770
+
+    Average: [1;34m1770 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        145152
+
+    Average: [1;34m145152 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        2420
+
+    Average: [1;34m2420 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        142730.8
+
+    Average: [1;34m142730.8 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 30 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 17 Minutes [02:38 EST] 
+        Started Run 1 @ 02:22:12
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        5224
+
+    Average: [1;34m5224 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        128128
+
+    Average: [1;34m128128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        6856
+
+    Average: [1;34m6856 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        126191.73
+
+    Average: [1;34m126191.73 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 31 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 16 Minutes [02:38 EST] 
+        Started Run 1 @ 02:22:52
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        2052
+
+    Average: [1;34m2052 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        322048
+
+    Average: [1;34m322048 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        3668
+
+    Average: [1;34m3668 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        317898.13
+
+    Average: [1;34m317898.13 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 32 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 15 Minutes [02:38 EST] 
+        Started Run 1 @ 02:23:32
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        5272
+
+    Average: [1;34m5272 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        127104
+
+    Average: [1;34m127104 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        7240
+
+    Average: [1;34m7240 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        126370.57
+
+    Average: [1;34m126370.57 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 33 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 15 Minutes [02:38 EST] 
+        Started Run 1 @ 02:24:12
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        2060
+
+    Average: [1;34m2060 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        321024
+
+    Average: [1;34m321024 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        3844
+
+    Average: [1;34m3844 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        316560.73
+
+    Average: [1;34m316560.73 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 34 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 14 Minutes [02:38 EST] 
+        Started Run 1 @ 02:24:52
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        5256
+
+    Average: [1;34m5256 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        126848
+
+    Average: [1;34m126848 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        7224
+
+    Average: [1;34m7224 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        126192.83
+
+    Average: [1;34m126192.83 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 35 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 14 Minutes [02:38 EST] 
+        Started Run 1 @ 02:25:32
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        1766
+
+    Average: [1;34m1766 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        147200
+
+    Average: [1;34m147200 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        2436
+
+    Average: [1;34m2436 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        144293.2
+
+    Average: [1;34m144293.2 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 36 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 13 Minutes [02:39 EST] 
+        Started Run 1 @ 02:26:12
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        5256
+
+    Average: [1;34m5256 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        127360
+
+    Average: [1;34m127360 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        6840
+
+    Average: [1;34m6840 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        126213.97
+
+    Average: [1;34m126213.97 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 37 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 13 Minutes [02:39 EST] 
+        Started Run 1 @ 02:26:53
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        2060
+
+    Average: [1;34m2060 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        321024
+
+    Average: [1;34m321024 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        3948
+
+    Average: [1;34m3948 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        315808.3
+
+    Average: [1;34m315808.3 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 38 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 12 Minutes [02:39 EST] 
+        Started Run 1 @ 02:27:33
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        128896
+
+    Average: [1;34m128896 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        9520
+
+    Average: [1;34m9520 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        127425.43
+
+    Average: [1;34m127425.43 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 39 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 12 Minutes [02:39 EST] 
+        Started Run 1 @ 02:28:13
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        2068
+
+    Average: [1;34m2068 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        326144
+
+    Average: [1;34m326144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        4696
+
+    Average: [1;34m4696 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        320450.67
+
+    Average: [1;34m320450.67 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 40 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 11 Minutes [02:39 EST] 
+        Started Run 1 @ 02:28:53
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        129664
+
+    Average: [1;34m129664 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        10992
+
+    Average: [1;34m10992 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        128278.1
+
+    Average: [1;34m128278.1 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 41 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 11 Minutes [02:39 EST] 
+        Started Run 1 @ 02:29:33
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        2060
+
+    Average: [1;34m2060 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        323072
+
+    Average: [1;34m323072 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        3668
+
+    Average: [1;34m3668 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        316949.63
+
+    Average: [1;34m316949.63 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 42 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 10 Minutes [02:40 EST] 
+        Started Run 1 @ 02:30:13
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        5272
+
+    Average: [1;34m5272 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        126848
+
+    Average: [1;34m126848 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        7192
+
+    Average: [1;34m7192 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        126186.37
+
+    Average: [1;34m126186.37 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 43 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 10 Minutes [02:40 EST] 
+        Started Run 1 @ 02:30:54
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        2068
+
+    Average: [1;34m2068 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        335360
+
+    Average: [1;34m335360 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        4696
+
+    Average: [1;34m4696 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        323009.5
+
+    Average: [1;34m323009.5 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 44 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 9 Minutes [02:40 EST] 
+        Started Run 1 @ 02:31:34
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        130176
+
+    Average: [1;34m130176 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        10992
+
+    Average: [1;34m10992 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        128707.37
+
+    Average: [1;34m128707.37 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 45 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 9 Minutes [02:40 EST] 
+        Started Run 1 @ 02:32:14
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        2060
+
+    Average: [1;34m2060 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        320000
+
+    Average: [1;34m320000 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        3876
+
+    Average: [1;34m3876 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        316098.63
+
+    Average: [1;34m316098.63 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 46 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 8 Minutes [02:40 EST] 
+        Started Run 1 @ 02:32:54
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        5272
+
+    Average: [1;34m5272 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        126592
+
+    Average: [1;34m126592 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        7336
+
+    Average: [1;34m7336 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        125943
+
+    Average: [1;34m125943 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 47 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 8 Minutes [02:40 EST] 
+        Started Run 1 @ 02:33:34
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        2084
+
+    Average: [1;34m2084 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        339456
+
+    Average: [1;34m339456 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        6024
+
+    Average: [1;34m6024 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        329679.63
+
+    Average: [1;34m329679.63 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 48 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 7 Minutes [02:40 EST] 
+        Started Run 1 @ 02:34:15
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        133376
+
+    Average: [1;34m133376 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        14480
+
+    Average: [1;34m14480 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        131236.2
+
+    Average: [1;34m131236.2 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 49 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 7 Minutes [02:41 EST] 
+        Started Run 1 @ 02:34:55
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        2060
+
+    Average: [1;34m2060 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        318976
+
+    Average: [1;34m318976 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        3996
+
+    Average: [1;34m3996 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        315172.17
+
+    Average: [1;34m315172.17 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 50 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 6 Minutes [02:41 EST] 
+        Started Run 1 @ 02:35:35
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        128640
+
+    Average: [1;34m128640 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        10160
+
+    Average: [1;34m10160 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        127232.43
+
+    Average: [1;34m127232.43 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 51 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 6 Minutes [02:41 EST] 
+        Started Run 1 @ 02:36:16
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        2092
+
+    Average: [1;34m2092 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        336384
+
+    Average: [1;34m336384 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        5576
+
+    Average: [1;34m5576 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        332367.63
+
+    Average: [1;34m332367.63 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 52 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 5 Minutes [02:41 EST] 
+        Started Run 1 @ 02:36:56
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        131840
+
+    Average: [1;34m131840 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        13456
+
+    Average: [1;34m13456 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        131794.6
+
+    Average: [1;34m131794.6 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 53 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 5 Minutes [02:41 EST] 
+        Started Run 1 @ 02:37:37
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        2068
+
+    Average: [1;34m2068 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        324096
+
+    Average: [1;34m324096 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        4808
+
+    Average: [1;34m4808 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        320468.5
+
+    Average: [1;34m320468.5 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 54 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 4 Minutes [02:41 EST] 
+        Started Run 1 @ 02:38:17
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        129152
+
+    Average: [1;34m129152 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        12592
+
+    Average: [1;34m12592 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        127758.07
+
+    Average: [1;34m127758.07 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 55 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 4 Minutes [02:42 EST] 
+        Started Run 1 @ 02:38:57
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        2068
+
+    Average: [1;34m2068 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        330240
+
+    Average: [1;34m330240 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        4968
+
+    Average: [1;34m4968 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        321413.23
+
+    Average: [1;34m321413.23 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 56 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 3 Minutes [02:42 EST] 
+        Started Run 1 @ 02:39:38
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        5304
+
+    Average: [1;34m5304 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        129664
+
+    Average: [1;34m129664 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        12944
+
+    Average: [1;34m12944 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        127989.27
+
+    Average: [1;34m127989.27 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 57 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 3 Minutes [02:42 EST] 
+        Started Run 1 @ 02:40:18
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        2084
+
+    Average: [1;34m2084 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        336384
+
+    Average: [1;34m336384 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        16544
+
+    Average: [1;34m16544 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        324796.4
+
+    Average: [1;34m324796.4 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 58 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 2 Minutes [02:42 EST] 
+        Started Run 1 @ 02:40:58
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        5288
+
+    Average: [1;34m5288 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        130432
+
+    Average: [1;34m130432 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        19872
+
+    Average: [1;34m19872 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        129233.33
+
+    Average: [1;34m129233.33 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 59 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 2 Minutes [02:42 EST] 
+        Started Run 1 @ 02:41:39
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        2100
+
+    Average: [1;34m2100 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        339456
+
+    Average: [1;34m339456 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        7208
+
+    Average: [1;34m7208 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        331913.8
+
+    Average: [1;34m331913.8 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 60 of 60
+    Estimated Trial Run Count:    1                    
+    Estimated Time To Completion: 1 Minute [02:42 EST] 
+        Started Run 1 @ 02:42:19
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        5288
+
+    Average: [1;34m5288 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        132352
+
+    Average: [1;34m132352 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        16368
+
+    Average: [1;34m16368 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        130638.97
+
+    Average: [1;34m130638.97 RPS[0m
+    Samples: 1

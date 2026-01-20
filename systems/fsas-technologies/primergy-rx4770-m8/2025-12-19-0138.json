@@ -1,0 +1,3939 @@
+{
+    "title": "2025-12-19-0138",
+    "last_modified": "2025-12-19 02:42:52",
+    "description": "4 x Intel Xeon 6788P testing with a Fsas D4136-A1 (V1.0.0.0 R1.1.0 for D4136-A1x BIOS) and ASPEED on AlmaLinux 9.6 via the Phoronix Test Suite.",
+    "systems": {
+        "4 x 64 GB DDR5-6400MT": {
+            "identifier": "4 x 64 GB DDR5-6400MT",
+            "hardware": {
+                "Processor": "4 x Intel Xeon 6788P @ 3.80GHz (344 Cores \/ 688 Threads)",
+                "Motherboard": "Fsas D4136-A1 (V1.0.0.0 R1.1.0 for D4136-A1x BIOS)",
+                "Chipset": "Intel Ice Lake IEH",
+                "Memory": "4 x 64 GB DDR5-6400MT\/s Micron",
+                "Disk": "960GB Micron_7450_MTFDKBA960TFR + 0GB ASMT105x",
+                "Graphics": "ASPEED",
+                "Network": "Intel I210 + 2 x Intel I350"
+            },
+            "software": {
+                "OS": "AlmaLinux 9.6",
+                "Kernel": "5.14.0-570.12.1.el9_6.x86_64 (x86_64)",
+                "Desktop": "GNOME Shell 40.10",
+                "Display Server": "X Server",
+                "Compiler": "GCC 11.5.0 20240719",
+                "File-System": "xfs",
+                "Screen Resolution": "1024x768"
+            },
+            "user": "root",
+            "timestamp": "2025-12-19 01:38:47",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-redhat-linux --disable-libunwind-exceptions --enable-__cxa_atexit --enable-bootstrap --enable-cet --enable-checking=release --enable-gnu-indirect-function --enable-gnu-unique-object --enable-host-bind-now --enable-host-pie --enable-initfini-array --enable-languages=c,c++,fortran,lto --enable-link-serialization=1 --enable-multilib --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --mandir=\/usr\/share\/man --with-arch_32=x86-64 --with-arch_64=x86-64-v2 --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-tune=generic --without-cuda-driver --without-isl",
+                "cpu-scaling-governor": "intel_pstate powersave (EPP: balance_performance)",
+                "cpu-microcode": "0x10003f3",
+                "kernel-extra-details": "Transparent Huge Pages: always",
+                "security": "SELinux + gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Enhanced \/ Automatic IBRS; IBPB: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: BHI_DIS_S + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        }
+    },
+    "results": {
+        "0817532d055850122a9a6f5bc2568127041748fd": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "ADD -b 3",
+            "description": "Type: Add - Benchmark: Integer",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 56483.48,
+                    "test_run_times": [
+                        30.78
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "cba851101c05cd586097fba347c64527e81338d7": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "COPY -b 3",
+            "description": "Type: Copy - Benchmark: Integer",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 58636.52,
+                    "test_run_times": [
+                        29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "ea513650c89519ef97193ae0bb30369e7373bf21": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "SCALE -b 3",
+            "description": "Type: Scale - Benchmark: Integer",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 59694.87,
+                    "test_run_times": [
+                        28.92
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "fcb53d7cfffc6638e36c27ccac6f74439486691b": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "TRIAD -b 3",
+            "description": "Type: Triad - Benchmark: Integer",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 60178.08,
+                    "test_run_times": [
+                        28.92
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "844e5c67f7058c4b171cebe9839136d267a1e922": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "AVERAGE -b 3",
+            "description": "Type: Average - Benchmark: Integer",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 57824.87,
+                    "test_run_times": [
+                        30.65
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "23316b51bd0ecc8e0815e7341663d606e135199f": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "ADD -b 6",
+            "description": "Type: Add - Benchmark: Floating Point",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 59838.6,
+                    "test_run_times": [
+                        29.05
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "dc3d1fb8663228a66ba6f61a2c5df0e1bbdef202": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "COPY -b 6",
+            "description": "Type: Copy - Benchmark: Floating Point",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 59259.18,
+                    "test_run_times": [
+                        28.98
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "5632f6433830502675443daa46894b241a38dee6": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "SCALE -b 6",
+            "description": "Type: Scale - Benchmark: Floating Point",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 59308.2,
+                    "test_run_times": [
+                        28.99
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "33b7bb687a5647620f43024c54e378625d46a621": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "TRIAD -b 6",
+            "description": "Type: Triad - Benchmark: Floating Point",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 60132.25,
+                    "test_run_times": [
+                        28.97
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "569b18070344a1a07e04a75f3edbeb3b2d951523": {
+            "identifier": "pts\/ramspeed-1.4.3",
+            "title": "RAMspeed SMP",
+            "app_version": "3.5.0",
+            "arguments": "AVERAGE -b 6",
+            "description": "Type: Average - Benchmark: Floating Point",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 59686.5,
+                    "test_run_times": [
+                        28.97
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -march=native"
+                        }
+                    }
+                }
+            }
+        },
+        "7181cdd547166bcb80a442d047862e79a2c03b53": {
+            "identifier": "pts\/stream-1.3.4",
+            "title": "Stream",
+            "app_version": "2013-01-17",
+            "arguments": "Copy",
+            "description": "Type: Copy",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 104516.9,
+                    "test_run_times": [
+                        135.29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-mcmodel=medium -O3 -march=native -fopenmp"
+                        }
+                    }
+                }
+            }
+        },
+        "ef693518e90e9b655e7480ebadc7e438792cf83d": {
+            "identifier": "pts\/stream-1.3.4",
+            "title": "Stream",
+            "app_version": "2013-01-17",
+            "arguments": "Scale",
+            "description": "Type: Scale",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 102765.9,
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-mcmodel=medium -O3 -march=native -fopenmp"
+                        }
+                    }
+                }
+            }
+        },
+        "d4d018e082a62d26d548128121d15121dc6ac83e": {
+            "identifier": "pts\/stream-1.3.4",
+            "title": "Stream",
+            "app_version": "2013-01-17",
+            "arguments": "Triad",
+            "description": "Type: Triad",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 119952.8,
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-mcmodel=medium -O3 -march=native -fopenmp"
+                        }
+                    }
+                }
+            }
+        },
+        "8448419f59d2cfb8a8fb91a681d20af16b05e653": {
+            "identifier": "pts\/stream-1.3.4",
+            "title": "Stream",
+            "app_version": "2013-01-17",
+            "arguments": "Add",
+            "description": "Type: Add",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 120575,
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-mcmodel=medium -O3 -march=native -fopenmp"
+                        }
+                    }
+                }
+            }
+        },
+        "5bccbe11ecc086473c1c13ca929cb4faa318271e": {
+            "identifier": "pts\/tinymembench-1.0.2",
+            "title": "Tinymembench",
+            "app_version": "2018-05-28",
+            "description": "Standard Memcpy",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 15145.5,
+                    "test_run_times": [
+                        309.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b76d6cf01f46e1ebcef55c3acab75a3188331bb6": {
+            "identifier": "pts\/tinymembench-1.0.2",
+            "title": "Tinymembench",
+            "app_version": "2018-05-28",
+            "description": "Standard Memset",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 29979.2,
+                    "test_run_times": [
+                        309.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "61f7806218ca246f1cf151f32a69e40ea45376b6": {
+            "identifier": "pts\/t-test1-1.0.1",
+            "title": "t-test1",
+            "app_version": "2017-01-13",
+            "arguments": "1",
+            "description": "Threads: 1",
+            "scale": "Seconds",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 24.556,
+                    "test_run_times": [
+                        24.56
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-pthread"
+                        }
+                    }
+                }
+            }
+        },
+        "5ea36db146ece8d78e82e6ec6526ac2bdae1f6db": {
+            "identifier": "pts\/t-test1-1.0.1",
+            "title": "t-test1",
+            "app_version": "2017-01-13",
+            "arguments": "2",
+            "description": "Threads: 2",
+            "scale": "Seconds",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 8.918,
+                    "test_run_times": [
+                        8.92
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-pthread"
+                        }
+                    }
+                }
+            }
+        },
+        "e253ce9e6108d7dccb2c4c6d41e24f725c22ee62": {
+            "identifier": "system\/wireguard-1.0.1",
+            "title": "WireGuard + Linux Networking Stack Stress Test",
+            "scale": "Seconds",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 777.682,
+                    "test_run_times": [
+                        777.68
+                    ]
+                }
+            }
+        },
+        "a01a510b63a768d42186639a9c814ccb222c79d7": {
+            "identifier": "pts\/osbench-1.0.2",
+            "title": "OSBench",
+            "arguments": "create_files.exe target",
+            "description": "Test: Create Files",
+            "scale": "us Per Event",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 18.650195,
+                    "test_run_times": [
+                        5.43
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": ""
+                        }
+                    }
+                }
+            }
+        },
+        "cd3036fafd95f62f49bb54186c0265e742c98f7f": {
+            "identifier": "pts\/osbench-1.0.2",
+            "title": "OSBench",
+            "arguments": "create_threads.exe",
+            "description": "Test: Create Threads",
+            "scale": "us Per Event",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 88.560581,
+                    "test_run_times": [
+                        5.02
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": ""
+                        }
+                    }
+                }
+            }
+        },
+        "c01478dd959fa161ceb91e48ced3e3ad6969245c": {
+            "identifier": "pts\/osbench-1.0.2",
+            "title": "OSBench",
+            "arguments": "launch_programs.exe",
+            "description": "Test: Launch Programs",
+            "scale": "us Per Event",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 528.891087,
+                    "test_run_times": [
+                        5.05
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": ""
+                        }
+                    }
+                }
+            }
+        },
+        "1a42b91150be0786957df494622367e696007baf": {
+            "identifier": "pts\/osbench-1.0.2",
+            "title": "OSBench",
+            "arguments": "create_processes.exe",
+            "description": "Test: Create Processes",
+            "scale": "us Per Event",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 313.06982,
+                    "test_run_times": [
+                        5.04
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": ""
+                        }
+                    }
+                }
+            }
+        },
+        "ac6bd10dcd9c001db16849f8b6704ab70578afef": {
+            "identifier": "pts\/osbench-1.0.2",
+            "title": "OSBench",
+            "arguments": "mem_alloc.exe",
+            "description": "Test: Memory Allocations",
+            "scale": "Ns Per Event",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 55.6252,
+                    "test_run_times": [
+                        5.06
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": ""
+                        }
+                    }
+                }
+            }
+        },
+        "00ad1fd7ecc420dd5fa33a87024475348d63de36": {
+            "identifier": "pts\/cachebench-1.2.0",
+            "title": "CacheBench",
+            "arguments": "-r",
+            "description": "Test: Read",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 14429.983822,
+                    "min_result": [
+                        "14426.11"
+                    ],
+                    "max_result": [
+                        "14434.54"
+                    ],
+                    "test_run_times": [
+                        125.05
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -lrt"
+                        }
+                    }
+                }
+            }
+        },
+        "ecef0d8bc343cfbeaed3dc2f6e3700814339c428": {
+            "identifier": "pts\/cachebench-1.2.0",
+            "title": "CacheBench",
+            "arguments": "-w",
+            "description": "Test: Write",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 78117.342226,
+                    "min_result": [
+                        "39710.62"
+                    ],
+                    "max_result": [
+                        "109384.15"
+                    ],
+                    "test_run_times": [
+                        125.05
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -lrt"
+                        }
+                    }
+                }
+            }
+        },
+        "dc0189bb7e1dfb8abc3f221d1eca38c138022649": {
+            "identifier": "pts\/cachebench-1.2.0",
+            "title": "CacheBench",
+            "arguments": "-b",
+            "description": "Test: Read \/ Modify \/ Write",
+            "scale": "MB\/s",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 112289.433615,
+                    "min_result": [
+                        "71458.5"
+                    ],
+                    "max_result": [
+                        "135444.14"
+                    ],
+                    "test_run_times": [
+                        125.04
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O3 -lrt"
+                        }
+                    }
+                }
+            }
+        },
+        "6e7bed7656a4fe5d3b007bfdc0673e898202d469": {
+            "identifier": "pts\/build-python-1.0.0",
+            "title": "Timed CPython Compilation",
+            "app_version": "3.10.6",
+            "description": "Build Configuration: Default",
+            "scale": "Seconds",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 15.85,
+                    "test_run_times": [
+                        15.85
+                    ]
+                }
+            }
+        },
+        "b56ea47e76fbbef58bbfff5edfd1f08a4bea8041": {
+            "identifier": "pts\/build-python-1.0.0",
+            "title": "Timed CPython Compilation",
+            "app_version": "3.10.6",
+            "arguments": "--enable-optimizations --with-lto",
+            "description": "Build Configuration: Released Build, PGO + LTO Optimized",
+            "scale": "Seconds",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 269.576,
+                    "test_run_times": [
+                        269.58
+                    ]
+                }
+            }
+        },
+        "561c2ea4803136107ebe45e32cd83dc5b9dc07d4": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 1770,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "89ec30e37e91826bc494bde25cb6b7ea04cea1a0": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 145152,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "94911e94501601047f2b02e804ffefae92dddf8d": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2420,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "76fce8bda31213f39950435a50a4f6055fd09688": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 142730.8,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1cd435570d2659627ee9978fc6029daea5a6ed44": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5224,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e07444dc4e3092fd8a4927e2ef987647c7217b83": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 128128,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1c5872a95b6b0d3304e4f1c9f0cc79d2e114aa81": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 6856,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "7a3e41b17da5c134c62caeef99c248b20152bbd4": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256  --no-locking",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126191.73,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "aed2edb4cff5a10b50472030b0042ba1775c793b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2052,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "84912e1d9ef59abb0a5e3f7d735748971dfd9886": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 322048,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "7546eb11356757adfbcfa1420e92dd55b2b31879": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3668,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "0da8deec2eb755013715b7cd545c67f7763d5731": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 317898.13,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "156af40742c0dbd42203351d6eb6c1a259bc261f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5272,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "7ce5e16b8f6224546d5ac721815536e3ea7595f6": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127104,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "881cc07688f01f487d96dc236580210c0fc985c2": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 7240,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d16b1cb1df16abc73d3e021a1934c4ab0db26b2c": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256  --no-locking",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126370.57,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8a83a463db71ae173d72ba46e803bfd2704eefd6": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2060,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9ce3739ad86380ee63a17bbea7289cf7fc465bd8": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 321024,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "43b642bab351b11ba6afafa9b7f875fa409c0fc9": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3844,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "640fd18d16d11d0abcc35d7fc6e5bd6b20fc2092": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 316560.73,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9c625ac37345ed7c20339801e66633fe6b50adeb": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5256,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e75fd9b4a434b8b426f1d791d68a67c39f719a02": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126848,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "fd67bacf6e575d5619af8e1f6ff25b026dd4b645": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 7224,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f033c60a51659522fd973154af9b4a1697147a9f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256  --no-locking",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126192.83,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "93257710000d369742cb5ab7bd69eaebfa77e8a5": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 1766,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d814673f52733e2927495fa7726ca66ab5199336": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 147200,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "85bc08779c24c6ba596d83ccfbaebd1e21da14c5": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2436,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "09845bd88391958743ee8301b3ceebb42261e285": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 128",
+            "description": "Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 144293.2,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a07f609e672de93ba5ce2e19ad19cdf520275543": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5256,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9fdbbba6525710a5cdcbf793d25c379a321c5637": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127360,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "18ff624969e7b14278a01f41f7fae1f2da2ff4bf": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 6840,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a32e4c5da02c82209f1e47b63a0452698528c89f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 1 -F 256",
+            "description": "Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126213.97,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "37d4b68168ceadfb3a6c3ca218bc19564f3d746b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2060,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9ac40c2a8ab2a0cf43c404637e89ae5b9586239c": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 321024,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "4a26e8ae1a85a11cb2dabb12b5042cf19c4c698c": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3948,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "c53a256d9cf89564fc30787839c21c657393ef70": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 315808.3,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "6699120853e5da22d67c9a985935dfac2dbb44de": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f452b1b89d4e7a00faeac2bb02bcb24b7626fbd8": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 128896,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "839ad7829878d8ea2f57eda2a971d6e28b2cbeb3": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 9520,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a3942578ef7f2c832134f301771b6f53f9f75fa1": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256  --no-locking",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127425.43,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a2a156d1a425a2846f0d9c6f125a10567de28307": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2068,
+                    "test_run_times": [
+                        30.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d90adfc3e3f2c638ade87ef0cd40d81fcfe36fad": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 326144,
+                    "test_run_times": [
+                        30.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "4a9a283c88a269fbde987f8fc26959502053d293": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 4696,
+                    "test_run_times": [
+                        30.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "967c7f6389d942df5851453319cb6bbb0aa9672b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 320450.67,
+                    "test_run_times": [
+                        30.19
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "3d56faaa0314a6a0fb64dad46d0a80b0fc899bb6": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.18
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b62653864aa63c3777b8c88afc6dea92553aae0f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 129664,
+                    "test_run_times": [
+                        30.18
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "edc3dbc47a8ec5ea43218aafe611b8e9b8f9d688": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 10992,
+                    "test_run_times": [
+                        30.18
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "6d3c6820d8308aa90bebfbf479c5dc373e346f62": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256  --no-locking",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 128278.1,
+                    "test_run_times": [
+                        30.18
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "98646af663415e303bbb3f15552c9deb34b0f333": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2060,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1d09d38e11f386673ba4eb13b45c7a0e4e079727": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 323072,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "47febf842eabc35b872df3172e1f1b86872837e0": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3668,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9b1dcb82f28cceffd4a5cf68ab12fa0579d2c599": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 128",
+            "description": "Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 316949.63,
+                    "test_run_times": [
+                        30.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "99f21c987659c2182dcc9129fea07dfcecf0ef1d": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5272,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "6f1793a055407845a31c670a2ab1be1b04f8885e": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126848,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b9daee115e4369101ca44ce9f1a1a6795a252662": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 7192,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "4b75b3c00ba27742b86a0d6637592ed1ef48f48f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 4 -F 256",
+            "description": "Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126186.37,
+                    "test_run_times": [
+                        30.12
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "484a2fb3bc181c7712e122017936f8bbccf9779e": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2068,
+                    "test_run_times": [
+                        30.29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "82d12b7f8fa5cceaeac471e120d1499ce756f6eb": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 335360,
+                    "test_run_times": [
+                        30.29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "45264cdf05685853cb6f303509c76686b5d2e410": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 4696,
+                    "test_run_times": [
+                        30.29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "0db97b89aa61946a13bdf309289f7fe1b20b8e37": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 323009.5,
+                    "test_run_times": [
+                        30.29
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d317438fb30675f21b733be31615800784a21ef8": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e3f1d9d7e6fd8a3b45665156d28ea6245ea89b88": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 130176,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8fa0c83279be6cea21c6b9961143f0c3b220b3de": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 10992,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1140268298b16ec20c4ff70ab473ad95a30b2d50": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256  --no-locking",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 128707.37,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "4fb8a047b85464a0668c905f9e9057244611213f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2060,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "bab395003527d047a21cddf2d00802962d59e7bd": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 320000,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a9648dae9af1f5a55b560d8b0b1929255778579a": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3876,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "629290aae0a987047d4a1003aed5291761d5d579": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 128",
+            "description": "Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 316098.63,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "72c1a21bd420da4bda252446e916a7ae79b9c65c": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5272,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8c9e9eb21abb420736f6dc3dc48147f68188b9cf": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 126592,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "ddccb6d64db076cfe3f17fc9c2e55a6be82c4cbf": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 7336,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "194773aabf62316143b685513431d81c4a337a86": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 8 -F 256",
+            "description": "Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 125943,
+                    "test_run_times": [
+                        30.13
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d55d5ca5b93cad09f160699be54c2d2b84c44abb": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2084,
+                    "test_run_times": [
+                        30.45
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "466343b57247c8dae2e6638b48dfe4207e22ba29": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 339456,
+                    "test_run_times": [
+                        30.45
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "3521baec9b26946f86ad362fd41bc544e144b5f7": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 6024,
+                    "test_run_times": [
+                        30.45
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "200651d8dd4f5d395ad86d4413d5ba9026df010b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 329679.63,
+                    "test_run_times": [
+                        30.45
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "221bf6f54f431a7e0df0cfa7fdeecd96395b9e3e": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "77205a8826940200c49698c554b473ad636011c6": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 133376,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f6bf8435aa72891c0254f6e389804cec6ea19e16": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 14480,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "730e7b9ee0bcbb072ffb53f8e6562cbb123c5748": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256  --no-locking",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 131236.2,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8bc7e5586f312ca383fd9596460278330ccb8da0": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2060,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e3840665963994d4f993c49d652da521a93c9f12": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 318976,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b9107a730304a0fbbb140b554f0750af41de3ba1": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 3996,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "bf6ba1c57f3bf038e731b93c8f3767c81ef20606": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 128",
+            "description": "Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 315172.17,
+                    "test_run_times": [
+                        30.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b8695bb553725aebca052e7b021c305734b3951d": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.15
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "2cd120ce546ed64b8e6b11f7e8585fda4fb809f9": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 128640,
+                    "test_run_times": [
+                        30.15
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "383e5883c58c7b00fe6bab6f8bed34b9b3cb65c9": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 10160,
+                    "test_run_times": [
+                        30.15
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e6863fa5937b2793eab3132e32da5441a02ba02f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 16 -F 256",
+            "description": "Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127232.43,
+                    "test_run_times": [
+                        30.15
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "0aa2a34520b06b6c7b20a80da8442c43f6922751": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2092,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "3d1055a7225d11f5aa632bfb22d5c0c441997a1b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 336384,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "b7273e66780e99bf89868b1d772a4789c420e1f5": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5576,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1d572d5f52ab38d33c615219d5933141d4b7db2a": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 332367.63,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d0d7943bf6a92187f12da75754f7304d9d7bd098": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.57
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "0bc230bc02efa4d9efe531ade12ed16d6846f152": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 131840,
+                    "test_run_times": [
+                        30.57
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "45fc8d3b6a96f17fac2185c51ee96474c4a53211": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 13456,
+                    "test_run_times": [
+                        30.57
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "4e53b3d9709c5a37d11944f6c75bf4d32d5bbcba": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256  --no-locking",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: No",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 131794.6,
+                    "test_run_times": [
+                        30.57
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "2cdfce80d01a3fca6cc72b320482911c0d19b8be": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2068,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9627c22cdc50c1ff13d6939666d2f9fe6cc19236": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 324096,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "35b7ddbff629e41d16e56b6b4ac1346c6071fefb": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 4808,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "2d0fcc5b6fffad9c27c7745d8cbf319efdb3fb79": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 128",
+            "description": "Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 320468.5,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "3a1359f571fea6777c0707713f1703735994627c": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8e4bf799bf07e6044a56b5ed913c725a2fe27518": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 129152,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "518b110c356ca3e535f83835230c7d223a489e19": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 12592,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "454b61a1d3f67a6e95bc7a61e9b881c2c2081611": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 32 -F 256",
+            "description": "Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127758.07,
+                    "test_run_times": [
+                        30.21
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "0bb1247f948623aeddf74d0f52b80f7da2ed6e59": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2068,
+                    "test_run_times": [
+                        30.27
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "67984e95d3cb3897b3e538aaf8126fdf2e9d3c43": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 330240,
+                    "test_run_times": [
+                        30.27
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "8fc924b181f58142df35034547de4b089dfcc145": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 4968,
+                    "test_run_times": [
+                        30.27
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f8a8e1600c8506ab494004c233677ddb58b08a92": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 128",
+            "description": "Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 321413.23,
+                    "test_run_times": [
+                        30.27
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "a4339625be4b11de4912a7dea2a8dfba5e2bc811": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5304,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e345165081563b76853540fd97ceceae354ac1ac": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 129664,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d6e8fccc02c923689d37148f3b414aab6dfcb4d0": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 12944,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "645b54d1e115c5051fd8d2a4112bbb6723d6771f": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 64 -F 256",
+            "description": "Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 127989.27,
+                    "test_run_times": [
+                        30.28
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "d16d7537ba01da4ab825506ce0ce16175aba2124": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2084,
+                    "test_run_times": [
+                        30.46
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "1f7a6b3268263c5adbd069079ede84fb77d28a2d": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 336384,
+                    "test_run_times": [
+                        30.46
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f17317b7f93224726e6cff4ed55dac66fb7fbbb6": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 16544,
+                    "test_run_times": [
+                        30.46
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "ffe7c32555ec1bc9d0bc9e9235872d8269ea0439": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 128",
+            "description": "Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 324796.4,
+                    "test_run_times": [
+                        30.46
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "f7be701891ca1ffb60bf71517b369119df01b12e": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5288,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "16103b4c4b06b371129c4200a64987a23e56fc35": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 130432,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "97e31edcff98220a195e0564dfa363d527ded437": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 19872,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "e472eb0b25887eeedd5430e640a19449e3410952": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 128 -F 256",
+            "description": "Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 129233.33,
+                    "test_run_times": [
+                        30.42
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "bda6e2256ba2b9e4ed2a6df706fbeb1b4580c2c1": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 2100,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "620565bc238b575586a58db119a4cd0af3bdb61b": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 339456,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "9671b58eb2289e1c9cb1611c4061bd42d1e09337": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 7208,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "ac1eb37f8f37bac135c418ee7528df41bf51d715": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 128",
+            "description": "Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 331913.8,
+                    "test_run_times": [
+                        30.61
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "acd953913157707428e89bae50be3343fe4f16fa": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 50.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 5288,
+                    "test_run_times": [
+                        30.59
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "758b4098edd101f45d543dcd7e739ee6217e53a4": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 90.0th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 132352,
+                    "test_run_times": [
+                        30.59
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "bba163f7bd05aca794801442108ca1f8df534a91": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "usec, 99.9th Latency Percentile",
+            "proportion": "LIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 16368,
+                    "test_run_times": [
+                        30.59
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        },
+        "85cfee604aee88fa180cb60b7a0e10094e9e19d1": {
+            "identifier": "pts\/schbench-1.2.0",
+            "title": "Schbench",
+            "app_version": "2023-04-21",
+            "arguments": "-m 256 -F 256",
+            "description": "Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes",
+            "scale": "RPS",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4 x 64 GB DDR5-6400MT": {
+                    "value": 130638.97,
+                    "test_run_times": [
+                        30.59
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-O2 -lpthread -lm"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
