@@ -1,0 +1,1679 @@
+
+    Evaluating External Test Dependencies ..................................
+    Evaluating System Dependencies .........................................
+
+[1;32mPhoronix Test Suite v10.8.4[0m
+[1;32m[0m
+    [1mTo Install:[0m    pts/build-python-1.0.0
+    [1mTo Install:[0m    pts/osbench-1.0.2
+    [1mTo Install:[0m    pts/schbench-1.2.0
+    [1mTo Install:[0m    pts/t-test1-1.0.1
+    [1mTo Install:[0m    pts/tinymembench-1.0.2
+    [1mTo Install:[0m    system/wireguard-1.0.1
+    [1mTo Install:[0m    pts/cachebench-1.2.0
+    [1mTo Install:[0m    pts/ramspeed-1.4.3
+    [1mTo Install:[0m    pts/stream-1.3.4
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    9 Tests To Install
+        256MB Of Disk Space Is Needed
+        10 Seconds Estimated Install Time
+
+    [1;36mpts/build-python-1.0.0[0m:
+        Test Installation 1 of 9
+        1 File Needed [24.78 MB / 1 Minute]
+        [1mFile Found[0m: Python-3.10.6.tgz                              [24.78MB]
+        [1mApproximate Install Size: [0m250 MB
+        Installing Test @ 02:39:35
+
+    [1;36mpts/osbench-1.0.2[0m:
+        Test Installation 2 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mFile Found[0m: osbench-master-1.zip                            [0.01MB]
+        [1mApproximate Install Size: [0m1 MB
+        Installing Test @ 02:39:36
+
+    [1;36mpts/schbench-1.2.0[0m:
+        Test Installation 3 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mFile Found[0m: schbench-20230421.tar.xz                        [0.01MB]
+        [1mApproximate Install Size: [0m1 MB
+        Installing Test @ 02:39:37
+
+    [1;36mpts/t-test1-1.0.1[0m:
+        Test Installation 4 of 9
+        1 File Needed
+        [1mFile Found[0m: t-test1c-20171.zip                              [0.00MB]
+        [1mApproximate Install Size: [0m1.0 MB
+        Installing Test @ 02:39:37
+
+    [1;36mpts/tinymembench-1.0.2[0m:
+        Test Installation 5 of 9
+        1 File Needed [0.03 MB / 1 Minute]
+        [1mFile Found[0m: tinymembench-20180528.zip                       [0.03MB]
+        [1mApproximate Install Size: [0m0.3 MB
+        Installing Test @ 02:39:37
+
+    [1;36msystem/wireguard-1.0.1[0m:
+        Test Installation 6 of 9
+        1 File Needed
+        [1mFile Found[0m: wireguard-for-pts-2.tar.xz                      [0.00MB]
+        [1mApproximate Install Size: [0m1 MB
+        Installing Test @ 02:39:38
+
+    [1;36mpts/cachebench-1.2.0[0m:
+        Test Installation 7 of 9
+        1 File Needed [0.08 MB / 1 Minute]
+        [1mFile Found[0m: llcbench-20170104.tar.gz                        [0.08MB]
+        [1mApproximate Install Size: [0m0.5 MB
+        Installing Test @ 02:39:38
+
+    [1;36mpts/ramspeed-1.4.3[0m:
+        Test Installation 8 of 9
+        1 File Needed [0.08 MB / 1 Minute]
+        [1mFile Found[0m: ramsmp-3.5.0.tar.gz                             [0.08MB]
+        [1mApproximate Install Size: [0m0.72 MB
+        [1mEstimated Install Time: [0m2 Seconds
+        Installing Test @ 02:39:38
+
+    [1;36mpts/stream-1.3.4[0m:
+        Test Installation 9 of 9
+        1 File Needed [0.01 MB / 1 Minute]
+        [1mFile Found[0m: stream-2013-01-17.tar.bz2                       [0.01MB]
+        [1mApproximate Install Size: [0m0.1 MB
+        Installing Test @ 02:39:39
+
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:              [1;32m2 x AMD EPYC 9845 160-Core @ 2.10GHz[0m
+    [1mCore Count[0m:           320                                     
+    [1mThread Count[0m:         640                                     
+    [1mExtensions[0m:           SSE 4.2                                 
+    [1m [0m                     + AVX512_VNNI                           
+    [1m [0m                     + AVX512CD                              
+    [1m [0m                     + AVX2                                  
+    [1m [0m                     + AVX                                   
+    [1m [0m                     + RDRAND                                
+    [1m [0m                     + FSGSBASE                              
+    [1mCache Size[0m:           640 MB                                  
+    [1mMicrocode[0m:            0xb10104e                               
+    [1mCore Family[0m:          Family 26 Model 17                      
+    [1mScaling Driver[0m:       acpi-cpufreq schedutil (Boost: Enabled) 
+
+  [1;30mGRAPHICS[0m:               [1;32mASPEED[0m
+    [1mScreen[0m:               1024x768         
+
+  [1;30mMOTHERBOARD[0m:            [1;32mFUJITSU D4129-A1[0m
+    [1mBIOS Version[0m:         V5.0.0.35 R2.10.0 for D4129-A1x                  
+    [1mChipset[0m:              AMD Turin Root Complex                           
+    [1mNetwork[0m:              4 x Broadcom NetXtreme BCM5719 PCIe + Intel I210 
+
+  [1;30mMEMORY[0m:                 [1;32m12 x 16 GB DDR5-4800MT/s Samsung M321R2GA3BB6-CQKEG[0m
+
+  [1;30mDISK[0m:                   [1;32m7682GB SAMSUNG MZ7LH7T6 + 0GB ASM1153[0m
+    [1mFile-System[0m:          xfs                                                               
+    [1mMount Options[0m:        attr2 inode64 logbsize=32k logbufs=8 noquota relatime rw seclabel 
+    [1mDisk Scheduler[0m:       MQ-DEADLINE                                                       
+    [1mDisk Details[0m:         Block Size: 4096                                                  
+
+  [1;30mOPERATING SYSTEM[0m:       [1;32mAlmaLinux 9.6[0m
+    [1mKernel[0m:               5.14.0-570.12.1.el9_6.x86_64 (x86_64)                                                                                                                 
+    [1mDesktop[0m:              GNOME Shell 40.10                                                                                                                                     
+    [1mDisplay Server[0m:       X Server                                                                                                                                              
+    [1mCompiler[0m:             GCC 11.5.0 20240719                                                                                                                                   
+    [1mSecurity[0m:             SELinux                                                                                                                                               
+    [1m [0m                     + gather_data_sampling: Not affected                                                                                                                  
+    [1m [0m                     + itlb_multihit: Not affected                                                                                                                         
+    [1m [0m                     + l1tf: Not affected                                                                                                                                  
+    [1m [0m                     + mds: Not affected                                                                                                                                   
+    [1m [0m                     + meltdown: Not affected                                                                                                                              
+    [1m [0m                     + mmio_stale_data: Not affected                                                                                                                       
+    [1m [0m                     + reg_file_data_sampling: Not affected                                                                                                                
+    [1m [0m                     + retbleed: Not affected                                                                                                                              
+    [1m [0m                     + spec_rstack_overflow: Not affected                                                                                                                  
+    [1m [0m                     + spec_store_bypass: Mitigation of SSB disabled via prctl                                                                                             
+    [1m [0m                     + spectre_v1: Mitigation of usercopy/swapgs barriers and __user pointer sanitization                                                                  
+    [1m [0m                     + spectre_v2: Mitigation of Enhanced / Automatic IBRS; IBPB: conditional; STIBP: always-on; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected 
+    [1m [0m                     + srbds: Not affected                                                                                                                                 
+    [1m [0m                     + tsx_async_abort: Not affected                                                                                                                       
+
+
+        [1;32m[Performance Tip] The CPU scaling governor is currently not set to
+        performance. It's possible to obtain greater performance if using
+        the performance governor.[0m
+
+        [1;30mTo change behavior, run: [0m
+
+        [1;30mecho performance | tee
+        /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor[0m
+
+        [1;31mReference:
+        https://openbenchmarking.org/result/1706268-TR-CPUGOVERN32[0m
+
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Add - Benchmark: Integer][0m
+    Test 1 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 49 Minutes [03:28 CST] 
+        Started Run 1 @ 02:39:42
+
+    Type: Add - Benchmark: Integer:
+        61641.44
+
+    Average: [1;34m61641.44 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Copy - Benchmark: Integer][0m
+    Test 2 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 49 Minutes [03:28 CST] 
+        Started Run 1 @ 02:40:19
+
+    Type: Copy - Benchmark: Integer:
+        70185.68
+
+    Average: [1;34m70185.68 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Scale - Benchmark: Integer][0m
+    Test 3 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 48 Minutes [03:28 CST] 
+        Started Run 1 @ 02:40:55
+
+    Type: Scale - Benchmark: Integer:
+        70335.34
+
+    Average: [1;34m70335.34 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Triad - Benchmark: Integer][0m
+    Test 4 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 48 Minutes [03:28 CST] 
+        Started Run 1 @ 02:41:32
+
+    Type: Triad - Benchmark: Integer:
+        62490.92
+
+    Average: [1;34m62490.92 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Average - Benchmark: Integer][0m
+    Test 5 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 48 Minutes [03:29 CST] 
+        Started Run 1 @ 02:42:09
+
+    Type: Average - Benchmark: Integer:
+        66799.34
+
+    Average: [1;34m66799.34 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Add - Benchmark: Floating Point][0m
+    Test 6 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 47 Minutes [03:29 CST] 
+        Started Run 1 @ 02:42:45
+
+    Type: Add - Benchmark: Floating Point:
+        63176.25
+
+    Average: [1;34m63176.25 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Copy - Benchmark: Floating Point][0m
+    Test 7 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 47 Minutes [03:29 CST] 
+        Started Run 1 @ 02:43:22
+
+    Type: Copy - Benchmark: Floating Point:
+        69926.44
+
+    Average: [1;34m69926.44 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Scale - Benchmark: Floating Point][0m
+    Test 8 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 46 Minutes [03:29 CST] 
+        Started Run 1 @ 02:43:59
+
+    Type: Scale - Benchmark: Floating Point:
+        70372.75
+
+    Average: [1;34m70372.75 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Triad - Benchmark: Floating Point][0m
+    Test 9 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 46 Minutes [03:29 CST] 
+        Started Run 1 @ 02:44:35
+
+    Type: Triad - Benchmark: Floating Point:
+        60621.27
+
+    Average: [1;34m60621.27 MB/s[0m
+    Samples: 1
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.3 [Type: Average - Benchmark: Floating Point][0m
+    Test 10 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 45 Minutes [03:29 CST] 
+        Started Run 1 @ 02:45:12
+
+    Type: Average - Benchmark: Floating Point:
+        66014.07
+
+    Average: [1;34m66014.07 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Copy][0m
+    Test 11 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 45 Minutes [03:30 CST] 
+        Started Run 1 @ 02:45:49
+
+    Type: Copy:
+        126553.6
+
+    Average: [1;34m126553.6 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Scale][0m
+    Test 12 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 45 Minutes [03:30 CST] 
+
+    Type: Scale:
+        111442.1
+
+    Average: [1;34m111442.1 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Triad][0m
+    Test 13 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 44 Minutes [03:29 CST] 
+
+    Type: Triad:
+        114871.1
+
+    Average: [1;34m114871.1 MB/s[0m
+    Samples: 1
+
+[1;36mStream 2013-01-17:
+    pts/stream-1.3.4 [Type: Add][0m
+    Test 14 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 44 Minutes [03:29 CST] 
+
+    Type: Add:
+        113089.5
+
+    Average: [1;34m113089.5 MB/s[0m
+    Samples: 1
+
+[1;36mTinymembench 2018-05-28:
+    pts/tinymembench-1.0.2[0m
+    Test 15 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      7 Minutes              
+    Estimated Time To Completion: 44 Minutes [03:29 CST] 
+        Started Run 1 @ 02:46:17
+
+    Standard Memcpy:
+        29846.5
+
+    Average: [1;34m29846.5 MB/s[0m
+    Samples: 1
+
+
+    Standard Memset:
+        78107.4
+
+    Average: [1;34m78107.4 MB/s[0m
+    Samples: 1
+
+[1;36mt-test1 2017-01-13:
+    pts/t-test1-1.0.1 [Threads: 1][0m
+    Test 16 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 38 Minutes [03:28 CST] 
+        Started Run 1 @ 02:51:28
+
+    Threads: 1:
+        22.915
+
+    Average: [1;34m22.915 Seconds[0m
+    Samples: 1
+
+[1;36mt-test1 2017-01-13:
+    pts/t-test1-1.0.1 [Threads: 2][0m
+    Test 17 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 38 Minutes [03:29 CST] 
+        Started Run 1 @ 02:52:01
+
+    Threads: 2:
+        7.892
+
+    Average: [1;34m7.892 Seconds[0m
+    Samples: 1
+
+[1;36mWireGuard + Linux Networking Stack Stress Test:
+    system/wireguard-1.0.1[0m
+    Test 18 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      8 Minutes              
+    Estimated Time To Completion: 37 Minutes [03:29 CST] 
+        Started Run 1 @ 02:52:19
+
+    Test Results:
+        424.875
+
+    Average: [1;34m424.875 Seconds[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Files][0m
+    Test 19 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 30 Minutes [03:28 CST] 
+        Started Run 1 @ 02:59:34
+
+    Test: Create Files:
+        33.600022
+
+    Average: [1;34m33.600022 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Threads][0m
+    Test 20 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 30 Minutes [03:29 CST] 
+        Started Run 1 @ 02:59:51
+
+    Test: Create Threads:
+        38.819313
+
+    Average: [1;34m38.819313 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Launch Programs][0m
+    Test 21 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 30 Minutes [03:29 CST] 
+        Started Run 1 @ 03:00:06
+
+    Test: Launch Programs:
+        263.91983
+
+    Average: [1;34m263.91983 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Create Processes][0m
+    Test 22 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 29 Minutes [03:29 CST] 
+        Started Run 1 @ 03:00:21
+
+    Test: Create Processes:
+        200.819969
+
+    Average: [1;34m200.819969 us Per Event[0m
+    Samples: 1
+
+[1;36mOSBench:
+    pts/osbench-1.0.2 [Test: Memory Allocations][0m
+    Test 23 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 29 Minutes [03:29 CST] 
+        Started Run 1 @ 03:00:36
+
+    Test: Memory Allocations:
+        54.538012
+
+    Average: [1;34m54.538012 Ns Per Event[0m
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Read][0m
+    Test 24 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 29 Minutes [03:29 CST] 
+        Started Run 1 @ 03:00:51
+
+    Test: Read:
+        10405.23664
+
+    Average: [1;34m10405.23664 MB/s[0m
+    Minimum: 10400.84
+    Maximum: 10409.82
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Write][0m
+    Test 25 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 27 Minutes [03:29 CST] 
+        Started Run 1 @ 03:03:06
+
+    Test: Write:
+        45337.792504
+
+    Average: [1;34m45337.792504 MB/s[0m
+    Minimum: 35946.99
+    Maximum: 71283.4
+    Samples: 1
+
+[1;36mCacheBench:
+    pts/cachebench-1.2.0 [Test: Read / Modify / Write][0m
+    Test 26 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      3 Minutes              
+    Estimated Time To Completion: 25 Minutes [03:29 CST] 
+        Started Run 1 @ 03:05:21
+
+    Test: Read / Modify / Write:
+        82767.916551
+
+    Average: [1;34m82767.916551 MB/s[0m
+    Minimum: 68958.68
+    Maximum: 100473.28
+    Samples: 1
+
+[1;36mTimed CPython Compilation 3.10.6:
+    pts/build-python-1.0.0 [Build Configuration: Default][0m
+    Test 27 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 23 Minutes [03:30 CST] 
+        Running Pre-Test Script @ 03:07:36
+        Started Run 1 @ 03:08:03
+        Running Post-Test Script @ 03:08:26
+
+    Build Configuration: Default:
+        21.253
+
+    Average: [1;34m21.253 Seconds[0m
+
+[1;36mTimed CPython Compilation 3.10.6:
+    pts/build-python-1.0.0 [Build Configuration: Released Build, PGO + LTO Optimized][0m
+    Test 28 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      6 Minutes              
+    Estimated Time To Completion: 23 Minutes [03:30 CST] 
+        Running Pre-Test Script @ 03:08:35
+        Started Run 1 @ 03:09:02
+        Running Post-Test Script @ 03:14:24
+
+    Build Configuration: Released Build, PGO + LTO Optimized:
+        320.562
+
+    Average: [1;34m320.562 Seconds[0m
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 29 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 17 Minutes [03:31 CST] 
+        Started Run 1 @ 03:14:32
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        3796
+
+    Average: [1;34m3796 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        166656
+
+    Average: [1;34m166656 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        8944
+
+    Average: [1;34m8944 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: No:
+        164201.6
+
+    Average: [1;34m164201.6 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 30 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 17 Minutes [03:31 CST] 
+        Started Run 1 @ 03:15:12
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        11344
+
+    Average: [1;34m11344 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        56000
+
+    Average: [1;34m56000 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        25568
+
+    Average: [1;34m25568 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: No:
+        55016.73
+
+    Average: [1;34m55016.73 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 31 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 16 Minutes [03:31 CST] 
+        Started Run 1 @ 03:15:53
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        3812
+
+    Average: [1;34m3812 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        166144
+
+    Average: [1;34m166144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        5208
+
+    Average: [1;34m5208 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: No:
+        165006.97
+
+    Average: [1;34m165006.97 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 32 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 15 Minutes [03:31 CST] 
+        Started Run 1 @ 03:16:33
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        56256
+
+    Average: [1;34m56256 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        15184
+
+    Average: [1;34m15184 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: No:
+        56049.83
+
+    Average: [1;34m56049.83 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 33 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 15 Minutes [03:31 CST] 
+        Started Run 1 @ 03:17:13
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        3812
+
+    Average: [1;34m3812 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        165120
+
+    Average: [1;34m165120 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        5208
+
+    Average: [1;34m5208 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: No:
+        164463.3
+
+    Average: [1;34m164463.3 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 34 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 14 Minutes [03:31 CST] 
+        Started Run 1 @ 03:17:53
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        56896
+
+    Average: [1;34m56896 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        15120
+
+    Average: [1;34m15120 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: No:
+        56687.47
+
+    Average: [1;34m56687.47 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 35 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 14 Minutes [03:31 CST] 
+        Started Run 1 @ 03:18:33
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        3804
+
+    Average: [1;34m3804 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        166656
+
+    Average: [1;34m166656 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        6392
+
+    Average: [1;34m6392 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 128 kb - Locking: Yes:
+        164854.87
+
+    Average: [1;34m164854.87 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 36 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 13 Minutes [03:32 CST] 
+        Started Run 1 @ 03:19:13
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        11312
+
+    Average: [1;34m11312 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        56000
+
+    Average: [1;34m56000 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        16928
+
+    Average: [1;34m16928 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 1 - Cache Footprint: 256 kb - Locking: Yes:
+        55399.3
+
+    Average: [1;34m55399.3 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 37 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 13 Minutes [03:32 CST] 
+        Started Run 1 @ 03:19:53
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        3812
+
+    Average: [1;34m3812 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        167168
+
+    Average: [1;34m167168 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        5160
+
+    Average: [1;34m5160 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: No:
+        166220.27
+
+    Average: [1;34m166220.27 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 38 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 12 Minutes [03:32 CST] 
+        Started Run 1 @ 03:20:33
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        56512
+
+    Average: [1;34m56512 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        15088
+
+    Average: [1;34m15088 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: No:
+        56268.67
+
+    Average: [1;34m56268.67 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 39 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 12 Minutes [03:32 CST] 
+        Started Run 1 @ 03:21:13
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        3820
+
+    Average: [1;34m3820 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        166656
+
+    Average: [1;34m166656 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        5144
+
+    Average: [1;34m5144 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: No:
+        165950.37
+
+    Average: [1;34m165950.37 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 40 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 11 Minutes [03:32 CST] 
+        Started Run 1 @ 03:21:53
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        11408
+
+    Average: [1;34m11408 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        56512
+
+    Average: [1;34m56512 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        15088
+
+    Average: [1;34m15088 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: No:
+        56348.03
+
+    Average: [1;34m56348.03 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 41 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 11 Minutes [03:32 CST] 
+        Started Run 1 @ 03:22:33
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        3812
+
+    Average: [1;34m3812 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        165632
+
+    Average: [1;34m165632 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        5208
+
+    Average: [1;34m5208 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 128 kb - Locking: Yes:
+        164949.57
+
+    Average: [1;34m164949.57 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 42 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 10 Minutes [03:33 CST] 
+        Started Run 1 @ 03:23:14
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        56256
+
+    Average: [1;34m56256 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        20512
+
+    Average: [1;34m20512 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 4 - Cache Footprint: 256 kb - Locking: Yes:
+        56000.4
+
+    Average: [1;34m56000.4 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 43 of 60
+    Estimated Trial Run Count:    1                      
+    Estimated Test Run-Time:      1 Minute               
+    Estimated Time To Completion: 10 Minutes [03:33 CST] 
+        Started Run 1 @ 03:23:54
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        3828
+
+    Average: [1;34m3828 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        166144
+
+    Average: [1;34m166144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        5128
+
+    Average: [1;34m5128 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: No:
+        165842.07
+
+    Average: [1;34m165842.07 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 44 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 9 Minutes [03:33 CST] 
+        Started Run 1 @ 03:24:34
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        11408
+
+    Average: [1;34m11408 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        56128
+
+    Average: [1;34m56128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        15024
+
+    Average: [1;34m15024 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: No:
+        56046.73
+
+    Average: [1;34m56046.73 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 45 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 9 Minutes [03:33 CST] 
+        Started Run 1 @ 03:25:14
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        3812
+
+    Average: [1;34m3812 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        165120
+
+    Average: [1;34m165120 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        5192
+
+    Average: [1;34m5192 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 128 kb - Locking: Yes:
+        164377.3
+
+    Average: [1;34m164377.3 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 46 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 8 Minutes [03:33 CST] 
+        Started Run 1 @ 03:25:54
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        56512
+
+    Average: [1;34m56512 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        21088
+
+    Average: [1;34m21088 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 8 - Cache Footprint: 256 kb - Locking: Yes:
+        56207.47
+
+    Average: [1;34m56207.47 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 47 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 8 Minutes [03:33 CST] 
+        Started Run 1 @ 03:26:34
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        3828
+
+    Average: [1;34m3828 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        166144
+
+    Average: [1;34m166144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        5096
+
+    Average: [1;34m5096 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: No:
+        166042.7
+
+    Average: [1;34m166042.7 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 48 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 7 Minutes [03:33 CST] 
+        Started Run 1 @ 03:27:14
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        11408
+
+    Average: [1;34m11408 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        56128
+
+    Average: [1;34m56128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        14992
+
+    Average: [1;34m14992 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: No:
+        56099.77
+
+    Average: [1;34m56099.77 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 49 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 7 Minutes [03:34 CST] 
+        Started Run 1 @ 03:27:54
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        3820
+
+    Average: [1;34m3820 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        166656
+
+    Average: [1;34m166656 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        6296
+
+    Average: [1;34m6296 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 128 kb - Locking: Yes:
+        165707.17
+
+    Average: [1;34m165707.17 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 50 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 6 Minutes [03:34 CST] 
+        Started Run 1 @ 03:28:34
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        56512
+
+    Average: [1;34m56512 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        21920
+
+    Average: [1;34m21920 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 16 - Cache Footprint: 256 kb - Locking: Yes:
+        56350.53
+
+    Average: [1;34m56350.53 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 128 kb - Locking: No][0m
+    Test 51 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 6 Minutes [03:34 CST] 
+        Started Run 1 @ 03:29:15
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        4184
+
+    Average: [1;34m4184 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        167680
+
+    Average: [1;34m167680 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        7912
+
+    Average: [1;34m7912 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: No:
+        167712.97
+
+    Average: [1;34m167712.97 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 256 kb - Locking: No][0m
+    Test 52 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 5 Minutes [03:34 CST] 
+        Started Run 1 @ 03:29:55
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        12432
+
+    Average: [1;34m12432 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        56512
+
+    Average: [1;34m56512 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        23264
+
+    Average: [1;34m23264 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: No:
+        56569.67
+
+    Average: [1;34m56569.67 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 53 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 5 Minutes [03:34 CST] 
+        Started Run 1 @ 03:30:35
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        3820
+
+    Average: [1;34m3820 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        166656
+
+    Average: [1;34m166656 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        6504
+
+    Average: [1;34m6504 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 128 kb - Locking: Yes:
+        165745.23
+
+    Average: [1;34m165745.23 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 54 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 4 Minutes [03:34 CST] 
+        Started Run 1 @ 03:31:15
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        11376
+
+    Average: [1;34m11376 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        56128
+
+    Average: [1;34m56128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        21536
+
+    Average: [1;34m21536 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 32 - Cache Footprint: 256 kb - Locking: Yes:
+        55954.8
+
+    Average: [1;34m55954.8 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 55 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 4 Minutes [03:34 CST] 
+        Started Run 1 @ 03:31:55
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        3828
+
+    Average: [1;34m3828 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        166144
+
+    Average: [1;34m166144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        6488
+
+    Average: [1;34m6488 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 128 kb - Locking: Yes:
+        165675.9
+
+    Average: [1;34m165675.9 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 56 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 3 Minutes [03:35 CST] 
+        Started Run 1 @ 03:32:35
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        11408
+
+    Average: [1;34m11408 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        56128
+
+    Average: [1;34m56128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        20448
+
+    Average: [1;34m20448 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 64 - Cache Footprint: 256 kb - Locking: Yes:
+        56009.67
+
+    Average: [1;34m56009.67 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 57 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 3 Minutes [03:35 CST] 
+        Started Run 1 @ 03:33:16
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        3828
+
+    Average: [1;34m3828 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        166144
+
+    Average: [1;34m166144 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        6408
+
+    Average: [1;34m6408 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 128 kb - Locking: Yes:
+        165897.53
+
+    Average: [1;34m165897.53 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 58 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 2 Minutes [03:35 CST] 
+        Started Run 1 @ 03:33:56
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        11408
+
+    Average: [1;34m11408 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        56128
+
+    Average: [1;34m56128 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        19744
+
+    Average: [1;34m19744 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 128 - Cache Footprint: 256 kb - Locking: Yes:
+        56054.4
+
+    Average: [1;34m56054.4 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes][0m
+    Test 59 of 60
+    Estimated Trial Run Count:    1                     
+    Estimated Test Run-Time:      1 Minute              
+    Estimated Time To Completion: 2 Minutes [03:35 CST] 
+        Started Run 1 @ 03:34:36
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        4168
+
+    Average: [1;34m4168 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        167680
+
+    Average: [1;34m167680 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        8464
+
+    Average: [1;34m8464 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 128 kb - Locking: Yes:
+        167548.1
+
+    Average: [1;34m167548.1 RPS[0m
+    Samples: 1
+
+[1;36mSchbench 2023-04-21:
+    pts/schbench-1.2.0 [Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes][0m
+    Test 60 of 60
+    Estimated Trial Run Count:    1                    
+    Estimated Time To Completion: 1 Minute [03:35 CST] 
+        Started Run 1 @ 03:35:16
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        12432
+
+    Average: [1;34m12432 usec, 50.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        56384
+
+    Average: [1;34m56384 usec, 90.0th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        25760
+
+    Average: [1;34m25760 usec, 99.9th Latency Percentile[0m
+    Samples: 1
+
+
+    Message Threads: 256 - Cache Footprint: 256 kb - Locking: Yes:
+        56454.3
+
+    Average: [1;34m56454.3 RPS[0m
+    Samples: 1
